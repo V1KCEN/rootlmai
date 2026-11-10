@@ -1,0 +1,65 @@
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+E:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" compileJava --offline --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: compileJava
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :neoFormMergeMappings FROM-CACHE
+> Task :create1.21.1ClientExtraJar FROM-CACHE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :neoFormStripServer FROM-CACHE
+> Task :neoFormStripClient FROM-CACHE
+> Task :neoFormMerge FROM-CACHE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :neoFormRename FROM-CACHE
+> Task :neoFormDecompile FROM-CACHE
+> Task :neoFormInject FROM-CACHE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormPatch FROM-CACHE
+> Task :neoFormPatchUserDev FROM-CACHE
+> Task :neoFormTransformSource FROM-CACHE
+> Task :neoFormRecompile
+
+E:\rootlmai>if -1 EQU 0 goto mainEnd 
+
+E:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+E:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+E:\rootlmai>set EXIT_CODE=-1 
+
+E:\rootlmai>if -1 EQU 0 set EXIT_CODE=1 
+
+E:\rootlmai>if not "" == "" exit -1 
+
+E:\rootlmai>exit /b -1 

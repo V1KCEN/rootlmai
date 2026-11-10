@@ -1,0 +1,24 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':clean'.
+> java.io.IOException: Unable to delete directory 'E:\rootlmai\build'
+    Failed to delete some children. This might happen because a process has files open or has its working directory set in the target directory.
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430
+    - E:\rootlmai\build\neoForm
+    New files were found. This might happen because a process is still writing to the target directory.
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\extractNatives
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\extractNatives\libraries
+    - E:\rootlmai\build\classes
+    - E:\rootlmai\build\classes\java
+    - E:\rootlmai\build\classes\java\main
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 38s

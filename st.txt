@@ -1,0 +1,18 @@
+slot 14 stone 1
+wait 1
+slot 14 dirt 1
+wait 1
+slot 14 0 0
+wait 1
+slot 15 dirt 1
+wait 1
+slot 0 dirt 1
+wait 1
+slot 16 dirt 1
+wait 1
+slot 17 dirt 1
+wait 1
+slot 18 dirt 1
+wait 1
+slot 19 dirt 1
+wait 1

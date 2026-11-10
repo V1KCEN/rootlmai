@@ -1,0 +1,20 @@
+wait 4
+slot 20 minecraft:oak_planks 64
+wait 2
+slot 21 minecraft:stone 64
+wait 2
+slot 22 minecraft:oak_planks 1
+wait 2
+slot 23 minecraft:diamond_sword 1
+wait 2
+slot 24 minecraft:oak_log 1
+wait 2
+slot 25 minecraft:oak_planks 1
+wait 2
+slot 26 minecraft:oak_planks 1
+wait 3
+pick 26
+wait 3
+drop minecraft:oak_planks 1
+wait 3
+slot 27 minecraft:stone 1

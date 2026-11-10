@@ -1,0 +1,337 @@
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+e:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+e:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+e:\rootlmai>set APP_BASE_NAME=gradlew 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+e:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+e:\rootlmai>set JAVA_EXE=java.exe 
+
+e:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+e:\rootlmai>if 0 EQU 0 goto execute 
+
+e:\rootlmai>set CLASSPATH= 
+
+e:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" runServer --no-daemon --console=plain 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: runServer
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430ExtractNatives UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :neoFormStripServer UP-TO-DATE
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430 UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248 UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :writeMinecraftClasspathServer
+
+> Task :runServer
+[21:51:15.776] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--nogui, --launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430] 
+[21:51:15.781] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS 
+[21:51:15.784] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0 
+[21:51:15.946] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev 
+[21:51:16.014] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/E:/mod/.gradle_home/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=SERVER 
+[21:51:16.150] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[21:51:16.199] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[21:51:16.215] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest] 
+[21:51:16.231] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: userdev mods and services, reader: mod manifest] 
+[21:51:16.315] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest] 
+[21:51:16.444] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: E:\mod\.gradle_home\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar 
+[21:51:16.444] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection 
+[21:51:16.444] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248.jar, locator: jarinjar, reader: mod manifest] 
+[21:51:16.447] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Example Mod 1.0.0 (examplemod)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.248 (neoforge) 
+[21:51:17.016] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[21:51:17.024] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui] 
+[21:51:17.098] [main/WARN] [mixin/]: Reference map 'examplemod.refmap.json' for examplemod.mixins.json could not be read. If this is a development environment you can ignore this message 
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[21:51:17] [main/DEBUG] [io.ne.ut.in.lo.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[21:51:17] [main/DEBUG] [io.ne.ut.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[21:51:17] [main/DEBUG] [io.ne.ut.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[21:51:17] [main/DEBUG] [os.ut.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@6daf2337
+[21:51:17] [main/DEBUG] [os.ut.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@6daf2337
+[21:51:18] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[21:51:18] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[21:51:18] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[21:51:18] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[21:51:18] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[21:51:18] [main/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[21:51:18] [main/DEBUG] [mixin/]: Mixing PlantGrowthMixin from examplemod.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[21:51:18] [main/DEBUG] [mixin/]: examplemod.mixins.json:PlantGrowthMixin from mod examplemod->@Inject::rootImpact_slowPlantGrowth(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[21:51:19] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[21:51:19] [main/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[21:51:19] [main/DEBUG] [mixin/]: Mixing CraftingMenuMixin from examplemod.mixins.json into net.minecraft.world.inventory.CraftingMenu
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:CraftingMenuMixin from mod examplemod->@Inject::onSlotChangedCraftingGrid(Lnet/minecraft/world/inventory/AbstractContainerMenu;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/inventory/ResultContainer;Lnet/minecraft/world/item/crafting/RecipeHolder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:CraftingMenuMixin from mod examplemod->@Inject::onQuickMoveStack(Lnet/minecraft/world/entity/player/Player;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:19] [main/DEBUG] [mixin/]: Mixing FurnaceCookTimeMixin from examplemod.mixins.json into net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:FurnaceCookTimeMixin from mod examplemod->@Inject::rootImpact_slowFurnaceCooking(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:19] [main/DEBUG] [mixin/]: Mixing AnvilMenuEnchantMixin from examplemod.mixins.json into net.minecraft.world.inventory.AnvilMenu
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[21:51:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[21:51:19] [main/DEBUG] [mixin/]: Mixing AgeableMobAgingMixin from examplemod.mixins.json into net.minecraft.world.entity.AgeableMob
+[21:51:20] [main/DEBUG] [mixin/]: Mixing SmithingMenuMixin from examplemod.mixins.json into net.minecraft.world.inventory.SmithingMenu
+[21:51:20] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$captureTablePos$0(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V to md9754a7$examplemod$lambda$captureTablePos$0$0 in examplemod.mixins.json:SmithingMenuMixin from mod examplemod
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[21:51:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[21:51:20] [main/DEBUG] [mixin/]: Mixing BonemealMixin from examplemod.mixins.json into net.minecraft.world.item.BoneMealItem
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: Java version: 21
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.Buffer.address: available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: sun.misc.Unsafe: available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: maxDirectMemory: 3728736256 bytes (maybe)
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\omega\AppData\Local\Temp (java.io.tmpdir)
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: Platform: Windows
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[21:51:21] [main/DEBUG] [io.ne.ut.in.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[21:51:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[21:51:21] [main/DEBUG] [mixin/]: Mixing BeePollinateMixin from examplemod.mixins.json into net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal
+[21:51:21] [main/DEBUG] [mixin/]: Mixing AnimalInventoryMixin from examplemod.mixins.json into net.minecraft.world.entity.animal.horse.AbstractChestedHorse
+[21:51:21] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnimalInventoryMixin from mod examplemod->@Inject::onGetInventoryColumns(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:22] [main/DEBUG] [mixin/]: Mixing VillagerDiscountsMixin from examplemod.mixins.json into net.minecraft.world.entity.npc.Villager
+[21:51:22] [main/DEBUG] [mixin/]: examplemod.mixins.json:VillagerDiscountsMixin from mod examplemod->@Inject::disableVillagerDiscounts(Lnet/minecraft/world/entity/player/Player;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[21:51:22] [main/DEBUG] [mixin/]: Mixing RepairItemRecipeMixin from examplemod.mixins.json into net.minecraft.world.item.crafting.RepairItemRecipe
+[21:51:22] [main/DEBUG] [mixin/]: examplemod.mixins.json:RepairItemRecipeMixin from mod examplemod->@Inject::blockCraftingRepair(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:22] [main/DEBUG] [mixin/]: examplemod.mixins.json:RepairItemRecipeMixin from mod examplemod->@Inject::blockCraftingRepairBase(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:23] [main/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[21:51:23] [main/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[21:51:24] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:51:24] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:51:24] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:51:24] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:51:24] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:51:24] [main/DEBUG] [ne.ne.fm.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[21:51:24] [main/DEBUG] [ne.ne.fm.ja.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod]
+[21:51:24] [main/DEBUG] [ne.ne.fm.ja.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.example.examplemod.ExampleMod]
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� ���� � ������ �������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� PlayerWeightHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: PlayerWeightHandler ���������������.
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.ne.in.ve.ne.NeoForgeVersion/CORE]: Found NeoForge version 21.1.248
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� WeightPenaltySystem...
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.ne.in.ve.ne.NeoForgeVersion/CORE]: Found FML version 4.0.43
+[21:51:24] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: WeightPenaltySystem ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� AnimalTransportHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: AnimalTransportHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CombatModifierHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CombatModifierHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� RepairHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: RepairHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� TradeManager...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: TradeManager ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� EnderChestHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: EnderChestHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodSpoilageManager...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodSpoilageManager ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� PumpkinPieStackSizeHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: PumpkinPieStackSizeHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CreativeLimitHandler...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CreativeLimitHandler ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� RepairCountComponent...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: RepairCountComponent ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodSpoilageData...
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodSpoilageData ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CreativeLimitData...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CreativeLimitData ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodItems...
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodItems ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� �������...
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file examplemod-common.toml for examplemod tracking
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������ ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� ���� � ������������� ���������.
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for examplemod
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/NetworkInitialization; to the mod event bus of mod neoforge
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.ut.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4f097117
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.ut.in.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.ut.in.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[21:51:24] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/filters/GenericPacketSplitter; to the mod event bus of mod neoforge
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/ConfigurationInitialization; to the mod event bus of mod neoforge
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/MonsterRoomHooks; to the game event bus
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$CommonHandler; to the mod event bus of mod neoforge
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentSync; to the game event bus
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[21:51:24] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentInternals; to the game event bus
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Unfreezing registries
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Freezing registries
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: All registries frozen
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loading configs type COMMON
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.ne.co.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\neoforge-common.toml
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\neoforge-common.toml for changes
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\examplemod-common.toml
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\examplemod-common.toml for changes
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: commonSetup � ������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������� ���� ����������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������ ������ �������� ��� ���������������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ���������� ������ ��������...
+[21:51:24] [modloading-worker-0/DEBUG] [mixin/]: Mixing EnchantBookForEmeraldsMixin from examplemod.mixins.json into net.minecraft.world.entity.npc.VillagerTrades$EnchantBookForEmeralds
+[21:51:24] [modloading-worker-0/DEBUG] [mixin/]: examplemod.mixins.json:EnchantBookForEmeraldsMixin from mod examplemod->@Inject::rootImpact_filterLibrarianBook(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������� �������� ���������.
+[21:51:24] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: commonSetup � ��������.
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[21:51:24] [modloading-sync-worker/DEBUG] [ne.ne.fm.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.057 ms
+[21:51:24] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:51:24] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/rootlmai/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.248/neoforge-21.1.248.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[21:51:24] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/rootlmai/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.248/neoforge-21.1.248.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[21:51:25] [main/INFO] [minecraft/Main]: No existing world data, creating new world
+[21:51:25] [main/ERROR] [minecraft/DedicatedServerProperties]: No key layers in MapLike[{}]
+[21:51:25] [main/INFO] [minecraft/RecipeManager]: Loaded 1290 recipes
+[21:51:26] [main/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+[21:51:26] [main/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[21:51:26] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[21:51:26] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[21:51:26] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: CREATIVE
+[21:51:26] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[21:51:26] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[21:51:26] [Server thread/DEBUG] [ne.ne.ne.ne.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[21:51:26] [Server thread/DEBUG] [io.ne.ch.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.co.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[21:51:26] [Server thread/DEBUG] [io.ne.ch.ni.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[21:51:26] [Server thread/DEBUG] [io.ne.ch.ni.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.in.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[21:51:26] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[21:51:26] [Server thread/DEBUG] [io.ne.ch.DefaultChannelId/]: -Dio.netty.processId: 20804 (auto-detected)
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[21:51:26] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[21:51:26] [Server thread/DEBUG] [io.ne.ch.DefaultChannelId/]: -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[21:51:26] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:51:26] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[21:51:26] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:51:26] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:51:26] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loading configs type SERVER
+[21:51:26] [Server thread/DEBUG] [ne.ne.ne.co.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[21:51:26] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\neoforge-server.toml
+[21:51:26] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\neoforge-server.toml for changes
+[21:51:26] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[21:51:27] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[21:51:27] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[21:51:28] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 296 ms
+[21:51:28] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.222s)! For help, type "help"
+[21:51:28] [Server thread/INFO] [minecraft/DedicatedServer]: Starting remote control listener
+[21:51:28] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener started
+[21:51:28] [Server thread/INFO] [minecraft/RconThread]: RCON running on 0.0.0.0:25575
+[21:51:28] [Server thread/DEBUG] [ne.ne.ne.ne.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[21:51:28] [Server thread/DEBUG] [ne.ne.ne.se.LanguageHook/]: Loaded 4 language files for en_us
+[21:51:28] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[21:51:28] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[21:51:28] [Server thread/INFO] [co.ex.ex.ExampleMod/]: Root Impact: Creative Limit � ��������� ��������� (���������� ����: false, ������� �������: 0, ��������� � registeritem: 0, ������ � registerblock: 0).
+[21:51:33] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[21:51:33] [RCON Client /127.0.0.1 #2/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[21:51:38] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[21:51:38] [RCON Client /127.0.0.1 #3/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[21:51:43] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[21:51:43] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: registeritem: ��������� 1 ID ���������: minecraft:stone. ����� � �������: 1.]
+[21:51:44] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: registerblock: ��������� 1 ID ������: minecraft:diamond_block. ����� � �������: 1.]
+[21:51:46] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ����� ����������� ����� ����ר� (������ �������: 0; ��� ����� ����� ���� ����������).]
+[21:51:46] [RCON Client /127.0.0.1 #4/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[21:51:51] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Stopping the server]
+[21:51:52] [Server thread/INFO] [co.ex.ex.ExampleMod/]: Root Impact: Creative Limit � ��������� ���������.
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[21:51:52] [RCON Client /127.0.0.1 #5/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:51:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:51:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:51:53] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[21:51:53] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:51:53] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:51:53] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:53] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:51:53] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[21:51:53] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener stopped
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 54s
+28 actionable tasks: 2 executed, 26 up-to-date
+Configuration cache entry stored.
+
+e:\rootlmai>if 0 EQU 0 goto mainEnd 
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" endlocal

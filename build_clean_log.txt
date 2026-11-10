@@ -1,0 +1,53 @@
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+e:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+e:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+e:\rootlmai>set APP_BASE_NAME=gradlew 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+e:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+e:\rootlmai>set JAVA_EXE=java.exe 
+
+e:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+e:\rootlmai>if 0 EQU 0 goto execute 
+
+e:\rootlmai>set CLASSPATH= 
+
+e:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" clean build --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because file '..\mod\.gradle_home\caches\minecraft\.\launcher_metadata.json' has changed.
+> Task :cacheVersionManifest1.21.1
+> Task :cacheVersionMappingsClient1.21.1
+> Task :cacheVersionExecutableServer1.21.1
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1
+> Task :clean
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets
+> Task :clean FAILED
+
+e:\rootlmai>if 1 EQU 0 goto mainEnd 
+
+e:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+e:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+e:\rootlmai>set EXIT_CODE=1 
+
+e:\rootlmai>if 1 EQU 0 set EXIT_CODE=1 
+
+e:\rootlmai>if not "" == "" exit 1 
+
+e:\rootlmai>exit /b 1 

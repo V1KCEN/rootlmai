@@ -1,0 +1,9 @@
+op Dev
+creativelimit on Dev
+creativelimit reset Dev
+clear Dev
+gamemode creative Dev
+item replace entity Dev hotbar.0 with minecraft:stone 3
+item replace entity Dev hotbar.1 with minecraft:stone 3
+item replace entity Dev hotbar.2 with minecraft:dirt 3
+data get entity Dev Inventory

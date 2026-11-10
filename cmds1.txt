@@ -1,0 +1,12 @@
+creativelimit status
+creativelimit registeritem add stone
+creativelimit registeritem add minecraft:diamond_sword
+creativelimit registeritem add bogus_id_xyz
+creativelimit registeritem list
+creativelimit registerblock add minecraft:oak_log
+creativelimit registerblock add bogus_block_id
+creativelimit registerblock list
+creativelimit allon
+creativelimit status
+creativelimit alloff
+creativelimit status

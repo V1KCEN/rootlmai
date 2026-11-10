@@ -1,0 +1,7 @@
+AUTH -> (1, '')
+> execute as Dev at Dev run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},PickupDelay:0}
+  Summoned new Stone
+  
+> data get entity @e[type=minecraft:item,limit=1,sort=nearest]
+  Stone has the following entity data: {Motion: [0.0d, 0.0d, 0.0d], Health: 0s, Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, Item: {count: 1, id: "minecraft:stone"}, Pos: [6.5d, -60.0d, 7.5d], PickupDelay: 0s, Fire: 0s, UUID: [I; -308677561, -1711650743, -1713088787, -825950798], Lifespan: 6000, Age: 0s}
+  

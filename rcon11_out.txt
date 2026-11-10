@@ -1,0 +1,4 @@
+AUTH -> (1, '')
+> data get entity Dev Inventory
+  No entity was found
+  

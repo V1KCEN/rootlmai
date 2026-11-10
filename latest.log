@@ -1,0 +1,121 @@
+[00:42:11] [main/INFO]: ModLauncher running: args [--username, Atherize, --version, 1.21.1, --gameDir, C:\Users\omega\AppData\Roaming\ModrinthApp\profiles\_, --assetsDir, C:\Users\omega\AppData\Roaming\ModrinthApp\meta\assets, --assetIndex, 17, --uuid, 5cb73160539b4acb861dc4012159e16f, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.234, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[00:42:11] [main/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[00:42:11] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[00:42:11] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[00:42:11] [main/INFO]: Trying GL version 4.6
+[00:42:11] [main/INFO]: Requested GL version 4.6 got version 4.6
+[00:42:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/omega/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[00:42:11] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 591.86, NVIDIA Corporation
+[00:42:11] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.234:client]
+[00:42:11] [main/INFO]: Found mod file "neoforge-21.1.234-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\omega\AppData\Roaming\ModrinthApp\meta\libraries\net\neoforged\neoforge\21.1.234\neoforge-21.1.234-universal.jar]], reader: mod manifest]
+[00:42:11] [main/INFO]: Found mod file "examplemod-1.0.0.jar" [locator: {mods folder locator at C:\Users\omega\AppData\Roaming\ModrinthApp\profiles\_\mods}, reader: mod manifest]
+[00:42:11] [main/INFO]: Found 2 dependencies adding them to mods collection
+[00:42:11] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[00:42:11] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[00:42:11] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Example Mod 1.0.0 (examplemod)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+[00:42:12] [main/INFO]: Compatibility level set to JAVA_21
+[00:42:12] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\omega\AppData\Roaming\ModrinthApp\profiles\_, --assetsDir, C:\Users\omega\AppData\Roaming\ModrinthApp\meta\assets, --uuid, 5cb73160539b4acb861dc4012159e16f, --username, Atherize, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[00:42:12] [main/WARN]: Reference map 'examplemod.refmap.json' for examplemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[08июл.2026 00:42:13.924] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 278 milliseconds
+[08июл.2026 00:42:14.042] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[08июл.2026 00:42:18.483] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/omega/AppData/Roaming/ModrinthApp/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[08июл.2026 00:42:18.484] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/omega/AppData/Roaming/ModrinthApp/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[08июл.2026 00:42:18.512] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08июл.2026 00:42:18.524] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Atherize
+[08июл.2026 00:42:18.620] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[08июл.2026 00:42:19.257] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: конструктор мода — начало инициализации.
+[08июл.2026 00:42:19.265] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация PlayerWeightHandler...
+[08июл.2026 00:42:19.272] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[08июл.2026 00:42:19.276] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: PlayerWeightHandler зарегистрирован.
+[08июл.2026 00:42:19.277] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация WeightPenaltySystem...
+[08июл.2026 00:42:19.278] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: WeightPenaltySystem зарегистрирован.
+[08июл.2026 00:42:19.278] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация AnimalTransportHandler...
+[08июл.2026 00:42:19.280] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: AnimalTransportHandler зарегистрирован.
+[08июл.2026 00:42:19.280] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация ReinforcedBlockHandler...
+[08июл.2026 00:42:19.282] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: ReinforcedBlockHandler зарегистрирован.
+[08июл.2026 00:42:19.282] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация CombatModifierHandler...
+[08июл.2026 00:42:19.283] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: CombatModifierHandler зарегистрирован.
+[08июл.2026 00:42:19.283] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: регистрация конфига...
+[08июл.2026 00:42:19.290] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: конфиг зарегистрирован.
+[08июл.2026 00:42:19.291] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: конструктор мода — инициализация завершена.
+[08июл.2026 00:42:20.083] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/examplemod
+[08июл.2026 00:42:20.093] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: commonSetup — начало.
+[08июл.2026 00:42:20.097] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: система веса инициализирована.
+[08июл.2026 00:42:20.097] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: Root Impact: commonSetup — завершён.
+[08июл.2026 00:42:20.147] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[08июл.2026 00:42:20.147] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[08июл.2026 00:42:20.313] [Worker-Main-1/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM CLIENT SETUP
+[08июл.2026 00:42:20.314] [Worker-Main-1/INFO] [com.example.examplemod.ExampleMod/]: MINECRAFT NAME >> Atherize
+[08июл.2026 00:42:21.755] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[08июл.2026 00:42:21.757] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08июл.2026 00:42:21.817] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (fifine  Microphone)
+[08июл.2026 00:42:21.819] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08июл.2026 00:42:21.958] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08июл.2026 00:42:21.966] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08июл.2026 00:42:21.966] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08июл.2026 00:42:21.967] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08июл.2026 00:42:21.968] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08июл.2026 00:42:21.971] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08июл.2026 00:42:21.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08июл.2026 00:42:21.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08июл.2026 00:42:21.974] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08июл.2026 00:42:22.123] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[08июл.2026 00:42:22.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08июл.2026 00:42:22.125] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08июл.2026 00:42:22.126] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[08июл.2026 00:42:22.126] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[08июл.2026 00:42:22.149] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08июл.2026 00:42:22.201] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[08июл.2026 00:43:46.602] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[08июл.2026 00:43:46.744] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[08июл.2026 00:43:47.128] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[08июл.2026 00:43:47.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08июл.2026 00:43:47.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08июл.2026 00:43:47.572] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[08июл.2026 00:43:47.703] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[08июл.2026 00:43:47.718] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 346 ms
+[08июл.2026 00:43:47.774] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[08июл.2026 00:43:47.774] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[08июл.2026 00:43:48.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Atherize[local:E:b179cca9] logged in with entity id 18 at (57.884688581782704, -60.0, -92.16842105315786)
+[08июл.2026 00:43:48.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Atherize присоединился к игре
+[08июл.2026 00:43:48.741] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 225 advancements
+[08июл.2026 00:43:51.655] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:43:51.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:43:51.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:43:51.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08июл.2026 00:44:35.425] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/71, l='ServerLevel[Новый мир]', x=67.68, y=-60.00, z=-79.35] died, message: 'Крестьянин был убит Atherize'
+[08июл.2026 00:44:35.436] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/71, l='ClientLevel', x=68.12, y=-60.00, z=-80.11] died, message: 'Крестьянин умер'
+[08июл.2026 00:44:36.105] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:44:36.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:44:36.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:44:36.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08июл.2026 00:45:11.370] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/74, l='ServerLevel[Новый мир]', x=47.97, y=-60.00, z=-63.98] died, message: 'Крестьянин был убит Atherize'
+[08июл.2026 00:45:11.375] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/74, l='ClientLevel', x=48.62, y=-60.00, z=-64.62] died, message: 'Крестьянин умер'
+[08июл.2026 00:45:37.223] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/85, l='ServerLevel[Новый мир]', x=74.70, y=-60.00, z=-69.70] died, message: 'Крестьянин был убит Atherize'
+[08июл.2026 00:45:37.229] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/85, l='ClientLevel', x=74.70, y=-60.00, z=-69.70] died, message: 'Крестьянин умер'
+[08июл.2026 00:45:38.154] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:45:38.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:45:38.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:45:38.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08июл.2026 00:46:06.554] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:46:06.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:46:06.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:46:06.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08июл.2026 00:46:13.236] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 239 advancements
+[08июл.2026 00:46:32.417] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 240 advancements
+[08июл.2026 00:47:08.904] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:47:08.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:47:08.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:47:08.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08июл.2026 00:47:32.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Atherize: Ваш режим игры изменён на Режим выживания]
+[08июл.2026 00:47:32.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Ваш режим игры изменён на Режим выживания
+[08июл.2026 00:47:53.905] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08июл.2026 00:47:53.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08июл.2026 00:47:53.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08июл.2026 00:47:53.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether

@@ -1,0 +1,64 @@
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+e:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+e:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+e:\rootlmai>set APP_BASE_NAME=gradlew 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+e:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+e:\rootlmai>set JAVA_EXE=java.exe 
+
+e:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+e:\rootlmai>if 0 EQU 0 goto execute 
+
+e:\rootlmai>set CLASSPATH= 
+
+e:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" compileJava --rerun-tasks --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra
+> Task :neoFormStripServer UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248
+> Task :compileJava
+
+BUILD SUCCESSFUL in 2m 30s
+23 actionable tasks: 5 executed, 18 up-to-date
+Configuration cache entry reused.
+
+e:\rootlmai>if 0 EQU 0 goto mainEnd 
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" endlocal

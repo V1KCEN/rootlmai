@@ -1,0 +1,2 @@
+execute as Dev at Dev run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},PickupDelay:0}
+data get entity @e[type=minecraft:item,limit=1,sort=nearest]

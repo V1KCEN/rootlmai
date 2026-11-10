@@ -1,0 +1,81 @@
+﻿
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=E:\rootlmai\ 
+
+E:\rootlmai>if "E:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=E:\rootlmai\ 
+
+E:\rootlmai>for %i in ("E:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=E:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "E:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" compileJava --rerun-tasks --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: compileJava
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra
+> Task :neoFormStripServer UP-TO-DATE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248
+
+> Task :compileJava
+.\gradlew : Note: E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\CombatModifierHandler.java uses or overri
+des a deprecated API.
+E:\rootlmai\b3.ps1:2 знак:1
++ .\gradlew compileJava --rerun-tasks --no-daemon 2>&1 | Out-File -File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Note: E:\rootlm...deprecated API.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Note: Recompile with -Xlint:deprecation for details.
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 39s
+23 actionable tasks: 5 executed, 18 up-to-date
+Configuration cache entry stored.
+
+E:\rootlmai>if 0 EQU 0 goto mainEnd 
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" endlocal

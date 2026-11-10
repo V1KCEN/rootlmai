@@ -1,0 +1,27 @@
+AUTH -> (1, '')
+> creativelimit status
+  === Creative Limit ===
+  Global: выключен (действуют только персональные записи)
+  ѕерсонально ограничено UUID: 0
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (0): Ч
+  registerblock (0): Ч
+   - Dev: ограничени€ OFF, Creative cap: 0/5, режим: creative (сейчас в Creative)
+  
+> creativelimit allon
+  Creative Limit: режим Ђограничить всехї ¬ Ћё„®Ќ (сейчас игроков: 1; все новые входы тоже ограничены).
+  
+> creativelimit on Dev
+  Creative Limit: ограничение ¬ Ћё„≈Ќќ дл€ 1 игрок(ов).
+  
+> creativelimit status
+  === Creative Limit ===
+  Global: ALLON Ч ограничены все игроки (включа€ будущие входы)
+  ѕерсонально ограничено UUID: 1
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (0): Ч
+  registerblock (0): Ч
+   - Dev: ограничени€ ON, Creative cap: 0/5, режим: creative (сейчас в Creative)
+  

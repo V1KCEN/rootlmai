@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.examplemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "examplemod.refmap.json",
+  "mixins": [
+    "AnimalInventoryMixin",
+    "HorseInventoryMenuMixin",
+    "CraftingMenuMixin",
+    "SmithingMenuMixin",
+    "RepairItemRecipeMixin",
+    "VillagerDiscountsMixin",
+    "EnchantmentHelperMixin",
+    "EnchantBookForEmeraldsMixin",
+    "AnvilMenuEnchantMixin",
+    "PlantGrowthMixin",
+    "BonemealMixin",
+    "BeePollinateMixin",
+    "FurnaceCookTimeMixin",
+    "AgeableMobAgingMixin",
+    "CreativeLimitCreativeSlotMixin",
+    "VanishBroadcastMixin",
+    "VanishPlayerListMixin",
+    "VanishParticleMixin",
+    "VanishPacketFilterMixin",
+    "VanishSoundPacketAccessor",
+    "VanishChunkMapAccessor",
+    "VanishTrackedEntityAccessor"
+  ],
+  "client": [
+    "CreativeLimitPickBlockMixin",
+    "CreativeLimitCreativeGuiMixin"
+  ],
+  "server": []
+}

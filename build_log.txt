@@ -1,0 +1,128 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :processTestResources NO-SOURCE
+> Task :processResources UP-TO-DATE
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :neoFormStripServer UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430ExtractNatives FROM-CACHE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430 UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.234 UP-TO-DATE
+> Task :writeMinecraftClasspathJunit UP-TO-DATE
+
+> Task :compileJava FAILED
+.\gradlew : E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:53: error: canno
+t find symbol
+строка:1 знак:17
++ cd e:\rootlmai; .\gradlew build --no-daemon 2>&1 | Out-File -FilePath ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:\rootlmai\src...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+        applyEffect(player, MobEffects.SLOWNESS, 0);
+                                      ^
+  symbol:   variable SLOWNESS
+  location: class MobEffects
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:58: error: cannot find symbo
+l
+        applyEffect(player, MobEffects.SLOWNESS, 1);
+                                      ^
+  symbol:   variable SLOWNESS
+  location: class MobEffects
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:62: error: cannot find symbo
+l
+        applyEffect(player, MobEffects.SLOWNESS, 2);
+                                      ^
+  symbol:   variable SLOWNESS
+  location: class MobEffects
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:75: error: cannot find symbo
+l
+        player.removeEffect(MobEffects.SLOWNESS);
+                                      ^
+  symbol:   variable SLOWNESS
+  location: class MobEffects
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:80: error: cannot find symbo
+l
+        player.removeEffect(MobEffects.SLOWNESS);
+                                      ^
+  symbol:   variable SLOWNESS
+  location: class MobEffects
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightRegistry.java:169: error: cannot find symbol
+        register(Items.FIELD_MASONED_BANNER_PATTERN, 0.1);
+                      ^
+  symbol:   variable FIELD_MASONED_BANNER_PATTERN
+  location: class Items
+6 errors
+
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:53: error: cannot find sym
+bol
+          applyEffect(player, MobEffects.SLOWNESS, 0);
+                                        ^
+    symbol:   variable SLOWNESS
+    location: class MobEffects
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:58: error: cannot find sym
+bol
+          applyEffect(player, MobEffects.SLOWNESS, 1);
+                                        ^
+    symbol:   variable SLOWNESS
+    location: class MobEffects
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:62: error: cannot find sym
+bol
+          applyEffect(player, MobEffects.SLOWNESS, 2);
+                                        ^
+    symbol:   variable SLOWNESS
+    location: class MobEffects
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:75: error: cannot find sym
+bol
+          player.removeEffect(MobEffects.SLOWNESS);
+                                        ^
+    symbol:   variable SLOWNESS
+    location: class MobEffects
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightPenaltySystem.java:80: error: cannot find sym
+bol
+          player.removeEffect(MobEffects.SLOWNESS);
+                                        ^
+    symbol:   variable SLOWNESS
+    location: class MobEffects
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\WeightRegistry.java:169: error: cannot find symbol
+          register(Items.FIELD_MASONED_BANNER_PATTERN, 0.1);
+                        ^
+    symbol:   variable FIELD_MASONED_BANNER_PATTERN
+    location: class Items
+  6 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 1m 13s
+27 actionable tasks: 1 executed, 1 from cache, 25 up-to-date
+Configuration cache entry reused.

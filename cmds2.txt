@@ -1,0 +1,10 @@
+op Dev
+creativelimit on Dev
+gamemode creative Dev
+creativelimit status
+data get entity Dev Attributes
+data get entity Dev active_effects
+data get entity Dev Health
+data get entity Dev Inventory
+execute as Dev at Dev run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:oak_planks",count:1}}
+data get entity Dev Inventory

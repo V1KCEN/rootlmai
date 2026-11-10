@@ -1,0 +1,4 @@
+AUTH -> (1, '')
+> data get entity Dev Inventory
+  Dev has the following entity data: [{count: 4, Slot: 0b, components: {"examplemod:taken_outside": 1b}, id: "minecraft:stone"}, {count: 3, Slot: 1b, id: "minecraft:stone"}, {count: 3, Slot: 2b, id: "minecraft:dirt"}]
+  

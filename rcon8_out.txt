@@ -1,0 +1,26 @@
+AUTH -> (1, '')
+> op Dev
+  Nothing changed. The player already is an operator
+  
+> creativelimit on Dev
+  Creative Limit: ограничение ВКЛЮЧЕНО для 1 игрок(ов).
+  
+> creativelimit reset Dev
+  Creative Limit: счётчик выборок сброшен у 1 игрок(ов).
+  
+> clear Dev
+  No items were found on player Dev
+  
+> gamemode creative Dev
+> item replace entity Dev hotbar.0 with minecraft:stone 3
+  Replaced a slot on Dev with [Stone]
+  
+> item replace entity Dev hotbar.1 with minecraft:stone 3
+  No entity was found
+  
+> item replace entity Dev hotbar.2 with minecraft:dirt 3
+  No entity was found
+  
+> data get entity Dev Inventory
+  No entity was found
+  

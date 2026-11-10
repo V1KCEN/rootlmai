@@ -1,0 +1,53 @@
+[bot] connected as Dev
+[bot] raw packet: len=3 first=038002
+[bot] compression threshold: 256
+[bot] raw packet: len=24 first=0002380df991f603344ca090369bad2a
+[bot] login success
+[bot] raw packet: len=78 first=0001146d696e6563726166743a756e72
+[bot] custom payload: b'\x14minecraft:unregisterminecraft:register\x00minecraft:unregister\x00neoforge:split\x00'
+[bot] config packet 0x01 (76 bytes)
+[bot] raw packet: len=154 first=0001126d696e6563726166743a726567
+[bot] custom payload: b'\x12minecraft:registerminecraft:register\x00minecraft:unregister\x00neoforge:register\x00neo'
+[bot] config packet 0x01 (152 bytes)
+[bot] raw packet: len=21 first=0001116e656f666f7267653a72656769
+[bot] custom payload: b'\x11neoforge:register\x00'
+[bot] config packet 0x01 (19 bytes)
+[bot] raw packet: len=6 first=000500000000
+[bot] raw packet: len=152 first=b002789c65cdd10d83300c0450ba42c7
+[bot] custom payload: b'\x12minecraft:registerminecraft:register\x00minecraft:unregister\x00neoforge:register\x00neo'
+[bot] config packet 0x01 (303 bytes)
+[bot] raw packet: len=27 first=00010f6d696e6563726166743a627261
+[bot] custom payload: b'\x0fminecraft:brand\x08neoforge'
+[bot] config packet 0x01 (25 bytes)
+[bot] raw packet: len=21 first=000c01116d696e6563726166743a7661
+[bot] config packet 0x0c (19 bytes)
+[bot] raw packet: len=86 first=000e03096d696e65637261667404636f
+[bot] select known packs -> reply empty list
+[bot] raw packet: len=1812 first=81ad01789ced9c4d8c144514806b33cc
+[bot] registry data (22144 bytes) received
+[bot] raw packet: len=286 first=830c789ccd94c14ec3300c865dd8d6ae
+[bot] registry data (1538 bytes) received
+[bot] raw packet: len=466 first=d718789cadd55d4fc320140660bc3056
+[bot] registry data (3158 bytes) received
+[bot] raw packet: len=541 first=f50f789c8d95ed6adb3014864f61595c
+[bot] registry data (2036 bytes) received
+[bot] raw packet: len=375 first=890f789c9594cb52c2301486eb46d1f1
+[bot] registry data (1928 bytes) received
+[bot] raw packet: len=667 first=d31d789c8d97dd729c300c85d990b699
+[bot] registry data (3794 bytes) received
+[bot] raw packet: len=442 first=f90d789ced94cf6a1b3110c647d8b11d
+[bot] registry data (1784 bytes) received
+[bot] raw packet: len=864 first=812a789cbd98496edb30144059341ee2
+[bot] registry data (5376 bytes) received
+[bot] raw packet: len=775 first=d226789c9d57db72d33014144f7478a0
+[bot] registry data (4945 bytes) received
+[bot] raw packet: len=4293 first=97ea01789ce55dcd73dbc6155f9aa22c
+[bot] registry data (29974 bytes) received
+[bot] raw packet: len=573 first=8619789c9dd6dd6ed3301407f033c658
+[bot] registry data (3205 bytes) received
+[bot] raw packet: len=15830 first=c0aa02789cddbd77801455ba373c27d4
+[bot] config packet 0x0d (38207 bytes)
+[bot] raw packet: len=2 first=0003
+[bot] configuration finished
+[bot] in play state
+[bot] ERROR: [Errno 2] No such file or directory: 'st.txt'

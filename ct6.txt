@@ -1,0 +1,4 @@
+creativelimit registeritem add minecraft:stone
+clear Dev
+creativelimit reset Dev
+creativelimit status

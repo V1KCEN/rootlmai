@@ -1,0 +1,85 @@
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+e:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+e:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+e:\rootlmai>set APP_BASE_NAME=gradlew 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+e:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+e:\rootlmai>set JAVA_EXE=java.exe 
+
+e:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+e:\rootlmai>if 0 EQU 0 goto execute 
+
+e:\rootlmai>set CLASSPATH= 
+
+e:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" build --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because the file system entry 'build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\transformSource\transformed' has been created.
+> Task :processTestResources NO-SOURCE
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :neoFormStripServer UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430ExtractNatives FROM-CACHE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets FROM-CACHE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430 UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248 UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :writeMinecraftClasspathJunit UP-TO-DATE
+> Task :testJunit NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :jar
+> Task :jarJar SKIPPED
+> Task :assemble
+> Task :build
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 47s
+28 actionable tasks: 1 executed, 2 from cache, 25 up-to-date
+Configuration cache entry stored.
+
+e:\rootlmai>if 0 EQU 0 goto mainEnd 
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" endlocal

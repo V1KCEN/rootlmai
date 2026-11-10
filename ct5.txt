@@ -1,0 +1,2 @@
+data get entity Dev Inventory
+data get entity Dev SelectedItem

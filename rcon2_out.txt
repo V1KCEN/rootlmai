@@ -1,0 +1,38 @@
+AUTH -> (1, '')
+> op Dev
+  Made Dev a server operator
+  
+> creativelimit on Dev
+  Creative Limit: ограничение ВКЛЮЧЕНО для 1 игрок(ов).
+  
+> gamemode creative Dev
+  Set Dev's game mode to Creative Mode
+  
+> creativelimit status
+  === Creative Limit ===
+  Global: выключен (действуют только персональные записи)
+  Персонально ограничено UUID: 1
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (2): minecraft:stone, minecraft:diamond_sword
+  registerblock (1): minecraft:oak_log
+   - Dev: ограничения ON, Creative cap: 0/5, режим: creative (сейчас в Creative)
+  
+> data get entity Dev Attributes
+  Found no elements matching Attributes
+  
+> data get entity Dev active_effects
+  Dev has the following entity data: [{duration: -1, show_icon: 0b, "neoforge:cures": ["protected_by_totem", "milk"], id: "minecraft:glowing", show_particles: 0b}]
+  
+> data get entity Dev Health
+  Dev has the following entity data: 50.0f
+  
+> data get entity Dev Inventory
+  Dev has the following entity data: []
+  
+> execute as Dev at Dev run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:oak_planks",count:1}}
+  Summoned new Oak Planks
+  
+> data get entity Dev Inventory
+  Dev has the following entity data: []
+  

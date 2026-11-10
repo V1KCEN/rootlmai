@@ -1,0 +1,86 @@
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+E:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" clean build --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because the file system entry 'build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\transformSource\transformed' has been created.
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets FROM-CACHE
+> Task :clean FAILED
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':clean'.
+> java.io.IOException: Unable to delete directory 'E:\rootlmai\build'
+    Failed to delete some children. This might happen because a process has files open or has its working directory set in the target directory.
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430
+    - E:\rootlmai\build\neoForm
+    New files were found. This might happen because a process is still writing to the target directory.
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\extractNatives
+    - E:\rootlmai\build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\extractNatives\libraries
+    - E:\rootlmai\build\classes
+    - E:\rootlmai\build\classes\java
+    - E:\rootlmai\build\classes\java\main
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 29s
+7 actionable tasks: 1 executed, 1 from cache, 5 up-to-date
+Configuration cache entry stored.
+
+E:\rootlmai>if 1 EQU 0 goto mainEnd 
+
+E:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+E:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+E:\rootlmai>set EXIT_CODE=1 
+
+E:\rootlmai>if 1 EQU 0 set EXIT_CODE=1 
+
+E:\rootlmai>if not "" == "" exit 1 
+
+E:\rootlmai>exit /b 1 

@@ -1,0 +1,6 @@
+[bot] connected as Dev
+[bot] sending handshake
+[bot] handshake sent
+[bot] sending login start
+[bot] login start sent, waiting
+[bot] ERROR: timed out

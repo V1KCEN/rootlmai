@@ -1,0 +1,645 @@
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+E:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" runServer --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :neoFormStripServer UP-TO-DATE
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430ExtractNatives FROM-CACHE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets FROM-CACHE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430 UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248 UP-TO-DATE
+> Task :writeMinecraftClasspathServer UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :runServer
+[22:37:08.500] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--nogui, --launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430] 
+[22:37:08.524] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS 
+[22:37:08.528] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0 
+[22:37:08.955] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev 
+[22:37:09.214] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/E:/mod/.gradle_home/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=SERVER 
+[22:37:09.556] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[22:37:09.657] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[22:37:09.705] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest] 
+[22:37:09.728] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: userdev mods and services, reader: mod manifest] 
+[22:37:09.923] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest] 
+[22:37:10.378] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: E:\mod\.gradle_home\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar 
+[22:37:10.378] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection 
+[22:37:10.380] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248.jar, locator: jarinjar, reader: mod manifest] 
+[22:37:10.386] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Example Mod 1.0.0 (examplemod)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.248 (neoforge) 
+[22:37:11.593] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[22:37:11.606] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui] 
+[22:37:11.922] [main/WARN] [mixin/]: Reference map 'examplemod.refmap.json' for examplemod.mixins.json could not be read. If this is a development environment you can ignore this message 
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[22:37:13] [main/DEBUG] [io.ne.ut.in.lo.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[22:37:13] [main/DEBUG] [io.ne.ut.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[22:37:13] [main/DEBUG] [io.ne.ut.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[22:37:14] [main/DEBUG] [os.ut.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@23e44287
+[22:37:14] [main/DEBUG] [os.ut.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@23e44287
+[22:37:16] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[22:37:16] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[22:37:16] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[22:37:16] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[22:37:16] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[22:37:16] [main/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[22:37:16] [main/DEBUG] [mixin/]: Mixing PlantGrowthMixin from examplemod.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[22:37:16] [main/DEBUG] [mixin/]: examplemod.mixins.json:PlantGrowthMixin from mod examplemod->@Inject::rootImpact_slowPlantGrowth(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:37:16] [main/DEBUG] [mixin/]: Mixing VanishBroadcastMixin from examplemod.mixins.json into net.minecraft.world.entity.Entity
+[22:37:16] [main/DEBUG] [mixin/]: examplemod.mixins.json:VanishBroadcastMixin from mod examplemod->@Inject::rootImpact_vanishBroadcastToPlayer(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:16] [main/DEBUG] [mixin/]: Mixing VanishParticleMixin from examplemod.mixins.json into net.minecraft.server.level.ServerLevel
+[22:37:16] [main/DEBUG] [mixin/]: examplemod.mixins.json:VanishParticleMixin from mod examplemod->@Inject::rootImpact_vanishFilterParticles(Lnet/minecraft/server/level/ServerPlayer;ZDDDLnet/minecraft/network/protocol/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:18] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[22:37:18] [main/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[22:37:18] [main/DEBUG] [mixin/]: Mixing CraftingMenuMixin from examplemod.mixins.json into net.minecraft.world.inventory.CraftingMenu
+[22:37:18] [main/DEBUG] [mixin/]: examplemod.mixins.json:CraftingMenuMixin from mod examplemod->@Inject::onSlotChangedCraftingGrid(Lnet/minecraft/world/inventory/AbstractContainerMenu;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/inventory/ResultContainer;Lnet/minecraft/world/item/crafting/RecipeHolder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:37:18] [main/DEBUG] [mixin/]: examplemod.mixins.json:CraftingMenuMixin from mod examplemod->@Inject::onQuickMoveStack(Lnet/minecraft/world/entity/player/Player;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:18] [main/DEBUG] [mixin/]: Mixing FurnaceCookTimeMixin from examplemod.mixins.json into net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
+[22:37:18] [main/DEBUG] [mixin/]: examplemod.mixins.json:FurnaceCookTimeMixin from mod examplemod->@Inject::rootImpact_slowFurnaceCooking(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:18] [main/DEBUG] [mixin/]: Mixing AnvilMenuEnchantMixin from examplemod.mixins.json into net.minecraft.world.inventory.AnvilMenu
+[22:37:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:37:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:37:19] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnvilMenuEnchantMixin from mod examplemod->@Inject::rootImpact_applyEnchantLimits(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:37:19] [main/DEBUG] [mixin/]: Mixing AgeableMobAgingMixin from examplemod.mixins.json into net.minecraft.world.entity.AgeableMob
+[22:37:19] [main/DEBUG] [mixin/]: Mixing SmithingMenuMixin from examplemod.mixins.json into net.minecraft.world.inventory.SmithingMenu
+[22:37:19] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$captureTablePos$0(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V to mdc24944$examplemod$lambda$captureTablePos$0$0 in examplemod.mixins.json:SmithingMenuMixin from mod examplemod
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::captureTablePos(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:37:20] [main/DEBUG] [mixin/]: examplemod.mixins.json:SmithingMenuMixin from mod examplemod->@Inject::onCreateResult(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:37:21] [main/DEBUG] [mixin/]: Mixing BonemealMixin from examplemod.mixins.json into net.minecraft.world.item.BoneMealItem
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: Java version: 21
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.Buffer.address: available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: sun.misc.Unsafe: available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: maxDirectMemory: 3728736256 bytes (maybe)
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\omega\AppData\Local\Temp (java.io.tmpdir)
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: Platform: Windows
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[22:37:21] [main/DEBUG] [io.ne.ut.in.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[22:37:21] [main/DEBUG] [io.ne.ut.in.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[22:37:22] [main/DEBUG] [mixin/]: Mixing BeePollinateMixin from examplemod.mixins.json into net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal
+[22:37:22] [main/DEBUG] [mixin/]: Mixing AnimalInventoryMixin from examplemod.mixins.json into net.minecraft.world.entity.animal.horse.AbstractChestedHorse
+[22:37:22] [main/DEBUG] [mixin/]: examplemod.mixins.json:AnimalInventoryMixin from mod examplemod->@Inject::onGetInventoryColumns(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:22] [main/DEBUG] [mixin/]: Mixing VillagerDiscountsMixin from examplemod.mixins.json into net.minecraft.world.entity.npc.Villager
+[22:37:22] [main/DEBUG] [mixin/]: examplemod.mixins.json:VillagerDiscountsMixin from mod examplemod->@Inject::disableVillagerDiscounts(Lnet/minecraft/world/entity/player/Player;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:37:23] [main/DEBUG] [mixin/]: Mixing RepairItemRecipeMixin from examplemod.mixins.json into net.minecraft.world.item.crafting.RepairItemRecipe
+[22:37:23] [main/DEBUG] [mixin/]: examplemod.mixins.json:RepairItemRecipeMixin from mod examplemod->@Inject::blockCraftingRepair(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:23] [main/DEBUG] [mixin/]: examplemod.mixins.json:RepairItemRecipeMixin from mod examplemod->@Inject::blockCraftingRepairBase(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:25] [main/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[22:37:25] [main/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[22:37:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:37:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:37:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:37:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:37:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:37:26] [main/DEBUG] [ne.ne.fm.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[22:37:26] [main/DEBUG] [ne.ne.fm.ja.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod]
+[22:37:26] [main/DEBUG] [ne.ne.fm.ja.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.example.examplemod.ExampleMod]
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� ���� � ������ �������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� PlayerWeightHandler...
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.ne.in.ve.ne.NeoForgeVersion/CORE]: Found NeoForge version 21.1.248
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.ne.in.ve.ne.NeoForgeVersion/CORE]: Found FML version 4.0.43
+[22:37:26] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: PlayerWeightHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� WeightPenaltySystem...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: WeightPenaltySystem ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� AnimalTransportHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: AnimalTransportHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CombatModifierHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CombatModifierHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� RepairHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: RepairHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� TradeManager...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: TradeManager ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� EnderChestHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: EnderChestHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodSpoilageManager...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodSpoilageManager ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� PumpkinPieStackSizeHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: PumpkinPieStackSizeHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CreativeLimitHandler...
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CreativeLimitHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� VanishHandler...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: VanishHandler ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� RepairCountComponent...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: RepairCountComponent ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodSpoilageData...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodSpoilageData ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� CreativeLimitData...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: CreativeLimitData ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� FoodItems...
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: FoodItems ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� �������...
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Config file examplemod-common.toml for examplemod tracking
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������ ���������������.
+[22:37:26] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ����������� ���� � ������������� ���������.
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for examplemod
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/NetworkInitialization; to the mod event bus of mod neoforge
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.ut.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@69eee22c
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.ut.in.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.ut.in.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[22:37:26] [modloading-worker-0/DEBUG] [io.ne.bu.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/filters/GenericPacketSplitter; to the mod event bus of mod neoforge
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/ConfigurationInitialization; to the mod event bus of mod neoforge
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/MonsterRoomHooks; to the game event bus
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$CommonHandler; to the mod event bus of mod neoforge
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentSync; to the game event bus
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[22:37:26] [modloading-worker-0/DEBUG] [ne.ne.fm.ja.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentInternals; to the game event bus
+[22:37:26] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Unfreezing registries
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: Freezing registries
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.ne.re.GameData/REGISTRIES]: All registries frozen
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loading configs type COMMON
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.ne.co.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\neoforge-common.toml
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\neoforge-common.toml for changes
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\examplemod-common.toml
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\examplemod-common.toml for changes
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: commonSetup � ������.
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: Tadpole.ticksToBeFrog = 72000 (���������� ����������� � 3 ���� ���������).
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ���������� �������� ������� � ���������� �������� � breeding cooldown ?3 ��������� (������ AgeableMobAgingMixin, 1 ��������� �������� �� 3 ����).
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������� ���� ����������������.
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������ ������ �������� ��� ���������������.
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ���������� ������ ��������...
+[22:37:27] [modloading-worker-0/DEBUG] [mixin/]: Mixing EnchantBookForEmeraldsMixin from examplemod.mixins.json into net.minecraft.world.entity.npc.VillagerTrades$EnchantBookForEmeralds
+[22:37:27] [modloading-worker-0/DEBUG] [mixin/]: examplemod.mixins.json:EnchantBookForEmeraldsMixin from mod examplemod->@Inject::rootImpact_filterLibrarianBook(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: ������� �������� ���������.
+[22:37:27] [modloading-worker-0/INFO] [co.ex.ex.ExampleMod/]: Root Impact: commonSetup � ��������.
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[22:37:27] [modloading-sync-worker/DEBUG] [ne.ne.fm.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.965 ms
+[22:37:27] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:37:27] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/rootlmai/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.248/neoforge-21.1.248.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[22:37:27] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/rootlmai/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.248/neoforge-21.1.248.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[22:37:28] [main/INFO] [minecraft/Main]: No existing world data, creating new world
+[22:37:28] [main/ERROR] [minecraft/DedicatedServerProperties]: No key layers in MapLike[{}]
+[22:37:29] [main/INFO] [minecraft/RecipeManager]: Loaded 1290 recipes
+[22:37:29] [main/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+[22:37:29] [main/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[22:37:30] [main/DEBUG] [mixin/]: Mixing VanishPlayerListMixin from examplemod.mixins.json into net.minecraft.server.players.PlayerList
+[22:37:30] [main/DEBUG] [mixin/]: examplemod.mixins.json:VanishPlayerListMixin from mod examplemod->@Inject::rootImpact_vanishFilterSystemMessage(Lnet/minecraft/network/chat/Component;Ljava/util/function/Function;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:37:30] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[22:37:30] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[22:37:30] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[22:37:30] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[22:37:30] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[22:37:30] [Server thread/DEBUG] [ne.ne.ne.ne.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[22:37:30] [Server thread/DEBUG] [io.ne.ch.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.co.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[22:37:30] [Server thread/DEBUG] [io.ne.ch.ni.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[22:37:30] [Server thread/DEBUG] [io.ne.ch.ni.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.in.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[22:37:30] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[22:37:30] [Server thread/DEBUG] [io.ne.ch.DefaultChannelId/]: -Dio.netty.processId: 4328 (auto-detected)
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[22:37:30] [Server thread/DEBUG] [io.ne.ut.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[22:37:30] [Server thread/DEBUG] [io.ne.ch.DefaultChannelId/]: -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[22:37:30] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:37:30] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:37:30] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:37:30] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:37:30] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loading configs type SERVER
+[22:37:30] [Server thread/DEBUG] [ne.ne.ne.co.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[22:37:30] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Loaded TOML config file E:\rootlmai\run\server\config\neoforge-server.toml
+[22:37:30] [Server thread/DEBUG] [ne.ne.fm.co.ConfigTracker/CONFIG]: Watching TOML config file E:\rootlmai\run\server\config\neoforge-server.toml for changes
+[22:37:30] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[22:37:30] [Server thread/DEBUG] [mixin/]: Mixing VanishChunkMapAccessor from examplemod.mixins.json into net.minecraft.server.level.ChunkMap
+[22:37:31] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[22:37:31] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[22:37:31] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 266 ms
+[22:37:31] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.416s)! For help, type "help"
+[22:37:31] [Server thread/INFO] [minecraft/DedicatedServer]: Starting remote control listener
+[22:37:31] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener started
+[22:37:31] [Server thread/INFO] [minecraft/RconThread]: RCON running on 0.0.0.0:25575
+[22:37:31] [Server thread/DEBUG] [ne.ne.ne.ne.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[22:37:31] [Server thread/DEBUG] [ne.ne.ne.se.LanguageHook/]: Loaded 4 language files for en_us
+[22:37:31] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[22:37:31] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22:37:31] [Server thread/INFO] [co.ex.ex.ExampleMod/]: Root Impact: Creative Limit � ��������� ��������� (���������� ����: false, ������� �������: 0, ��������� � registeritem: 0, ������ � registerblock: 0).
+[22:37:31] [Server thread/INFO] [co.ex.ex.ExampleMod/]: Root Impact: VANISH � ��������� ��������� (����������� � �������� vanish: 0).
+[22:37:40] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:37:47] [RCON Client /127.0.0.1 #2/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:38:24] [Netty Server IO #1/DEBUG] [io.ne.ut.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[22:38:24] [Netty Server IO #1/DEBUG] [io.ne.ut.Recycler/]: -Dio.netty.recycler.ratio: 8
+[22:38:24] [Netty Server IO #1/DEBUG] [io.ne.ut.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[22:38:24] [Netty Server IO #1/DEBUG] [io.ne.ut.Recycler/]: -Dio.netty.recycler.blocking: false
+[22:38:24] [Netty Server IO #1/DEBUG] [io.ne.ut.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[22:39:13] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:39:13] [RCON Client /127.0.0.1 #3/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:39:14] [Netty Server IO #2/DEBUG] [mixin/]: Mixing VanishPacketFilterMixin from examplemod.mixins.json into net.minecraft.server.network.ServerCommonPacketListenerImpl
+[22:39:14] [Netty Server IO #2/DEBUG] [mixin/]: examplemod.mixins.json:VanishPacketFilterMixin from mod examplemod->@Inject::rootImpact_vanishFilterSound(Lnet/minecraft/network/protocol/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:39:14] [Netty Server IO #2/DEBUG] [mixin/]: Mixing VanishSoundPacketAccessor from examplemod.mixins.json into net.minecraft.network.protocol.game.ClientboundSoundPacket
+[22:39:14] [Netty Server IO #2/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@694a6199 into net.minecraft.network.Connection@460615eb
+[22:39:14] [Netty Server IO #2/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@629108fe into net.minecraft.network.Connection@460615eb
+[22:39:14] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@1cf60d36 into net.minecraft.network.Connection@460615eb
+[22:39:14] [Server thread/DEBUG] [mixin/]: Mixing HorseInventoryMenuMixin from examplemod.mixins.json into net.minecraft.world.inventory.HorseInventoryMenu
+[22:39:14] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:HorseInventoryMenuMixin from mod examplemod->@Inject::onInit(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/Container;Lnet/minecraft/world/entity/animal/horse/AbstractHorse;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:39:14] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:HorseInventoryMenuMixin from mod examplemod->@Inject::onInit(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/Container;Lnet/minecraft/world/entity/animal/horse/AbstractHorse;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:39:14] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:HorseInventoryMenuMixin from mod examplemod->@Inject::onInit(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/Container;Lnet/minecraft/world/entity/animal/horse/AbstractHorse;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:39:14] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:49557] logged in with entity id 1 at (6.5, -60.0, 7.5)
+[22:39:14] [Server thread/DEBUG] [mixin/]: Mixing CreativeLimitCreativeSlotMixin from examplemod.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[22:39:14] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:CreativeLimitCreativeSlotMixin from mod examplemod->@Inject::rootImpact_creativeLimitSlot(Lnet/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:39:14] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:CreativeLimitCreativeSlotMixin from mod examplemod->@Inject::rootImpact_creativeLimitPickItem(Lnet/minecraft/network/protocol/game/ServerboundPickItemPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:39:15] [Server thread/DEBUG] [mixin/]: Mixing VanishTrackedEntityAccessor from examplemod.mixins.json into net.minecraft.server.level.ChunkMap$TrackedEntity
+[22:39:15] [Server thread/DEBUG] [mixin/]: Mixing EnchantmentHelperMixin from examplemod.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[22:39:15] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:EnchantmentHelperMixin from mod examplemod->@Inject::rootImpact_filterEnchantments(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/item/ItemStack;ILjava/util/stream/Stream;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:39:15] [Server thread/DEBUG] [mixin/]: examplemod.mixins.json:EnchantmentHelperMixin from mod examplemod->@Inject::rootImpact_filterEnchantments(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/item/ItemStack;ILjava/util/stream/Stream;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:40:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:42:05] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:42:06] [RCON Client /127.0.0.1 #4/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:42:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[22:42:49] [Netty Server IO #6/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@460c3ca9 into net.minecraft.network.Connection@30eba0c
+[22:42:49] [Netty Server IO #6/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@3247d8b1 into net.minecraft.network.Connection@30eba0c
+[22:42:49] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@11efa0ab into net.minecraft.network.Connection@30eba0c
+[22:42:49] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:51890] logged in with entity id 132 at (6.5, -60.0, 7.5)
+[22:43:15] [Server thread/INFO] [minecraft/MinecraftServer]: Dev was slain by Slime
+[22:43:17] [Netty Server IO #6/ERROR] [minecraft/Connection]: Exception caught in connection
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[22:43:17] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:44:31] [Netty Server IO #7/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@295e391b into net.minecraft.network.Connection@6c5ca254
+[22:44:31] [Netty Server IO #7/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@5dfa6dae into net.minecraft.network.Connection@6c5ca254
+[22:44:31] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@2d125ca4 into net.minecraft.network.Connection@6c5ca254
+[22:44:31] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:51978] logged in with entity id 219 at (6.5, -60.0, 7.5)
+[22:44:35] [Netty Server IO #7/ERROR] [minecraft/Connection]: Exception caught in connection
+io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:set_creative_mode_slot'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:33) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:13) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketDecoder.decode(PacketDecoder.java:30) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.lang.IllegalArgumentException: No value with id 101
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.IdMap.byIdOrThrow(IdMap.java:19) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.ByteBufCodecs$25.decode(ByteBufCodecs.java:475) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.ByteBufCodecs$25.decode(ByteBufCodecs.java:464) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$13.decode(StreamCodec.java:288) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.component.DataComponentPatch$1.decode(DataComponentPatch.java:69) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.component.DataComponentPatch$1.decode(DataComponentPatch.java:58) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$1.decode(ItemStack.java:140) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$1.decode(ItemStack.java:131) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$3.decode(ItemStack.java:208) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$3.decode(ItemStack.java:206) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$8.decode(StreamCodec.java:138) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$5.decode(StreamCodec.java:81) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$5.decode(StreamCodec.java:78) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:31) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	... 39 more
+[22:44:35] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:set_creative_mode_slot'
+[22:45:53] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:45:53] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: registeritem: ��������� 1 ID ���������: minecraft:stone. ����� � �������: 1.]
+[22:45:54] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: registeritem: ��������� 1 ID ���������: minecraft:diamond_sword. ����� � �������: 2.]
+[22:45:54] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: registerblock: ��������� 1 ID ������: minecraft:oak_log. ����� � �������: 1.]
+[22:45:55] [RCON Client /127.0.0.1 #5/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:46:01] [Netty Server IO #8/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@21f00cb4 into net.minecraft.network.Connection@64f286ee
+[22:46:01] [Netty Server IO #8/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@55dc6787 into net.minecraft.network.Connection@64f286ee
+[22:46:01] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@15f69d6d into net.minecraft.network.Connection@64f286ee
+[22:46:01] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:57996] logged in with entity id 220 at (6.5, -60.0, 7.5)
+[22:46:05] [Netty Server IO #8/ERROR] [minecraft/Connection]: Exception caught in connection
+io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:set_creative_mode_slot'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:33) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:13) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketDecoder.decode(PacketDecoder.java:30) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar%23134!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.handler@4.1.97.Final/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar%23136!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.lang.IllegalArgumentException: No value with id 105
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.IdMap.byIdOrThrow(IdMap.java:19) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.ByteBufCodecs$25.decode(ByteBufCodecs.java:475) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.ByteBufCodecs$25.decode(ByteBufCodecs.java:464) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$13.decode(StreamCodec.java:288) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.component.DataComponentPatch$1.decode(DataComponentPatch.java:69) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.component.DataComponentPatch$1.decode(DataComponentPatch.java:58) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$1.decode(ItemStack.java:140) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$1.decode(ItemStack.java:131) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$3.decode(ItemStack.java:208) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack$3.decode(ItemStack.java:206) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$8.decode(StreamCodec.java:138) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$5.decode(StreamCodec.java:81) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.StreamCodec$5.decode(StreamCodec.java:78) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.decode(IdDispatchCodec.java:31) ~[neoforge-21.1.248.jar%23195!/:?] {re:classloading}
+	... 39 more
+[22:46:05] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:set_creative_mode_slot'
+[22:46:19] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:46:23] [RCON Client /127.0.0.1 #6/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:47:21] [Netty Server IO #9/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@24932ab into net.minecraft.network.Connection@474bac86
+[22:47:21] [Netty Server IO #9/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@76c64f70 into net.minecraft.network.Connection@474bac86
+[22:47:21] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@50745420 into net.minecraft.network.Connection@474bac86
+[22:47:21] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:61643] logged in with entity id 221 at (6.5, -60.0, 7.5)
+[22:47:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[22:47:57] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:47:58] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ����������� �������� ��� 1 �����(��).]
+[22:47:59] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ������� ������� ������� � 1 �����(��).]
+[22:48:00] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Set Dev's game mode to Creative Mode]
+[22:48:03] [RCON Client /127.0.0.1 #7/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:48:18] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:48:19] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ����������� �������� ��� 1 �����(��).]
+[22:48:19] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ������� ������� ������� � 1 �����(��).]
+[22:48:21] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:48:21] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:48:24] [RCON Client /127.0.0.1 #8/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:48:30] [Netty Server IO #10/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@210a6746 into net.minecraft.network.Connection@6408fd03
+[22:48:30] [Netty Server IO #10/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@55a67ee3 into net.minecraft.network.Connection@6408fd03
+[22:48:30] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@178e86a1 into net.minecraft.network.Connection@6408fd03
+[22:48:30] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:61775] logged in with entity id 222 at (6.5, -60.0, 7.5)
+[22:48:44] [Server thread/INFO] [minecraft/MinecraftServer]: Dev was slain by Slime
+[22:49:02] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:49:02] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ����������� �������� ��� 1 �����(��).]
+[22:49:03] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ������� ������� ������� � 1 �����(��).]
+[22:49:05] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:49:05] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:49:06] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Dirt]]
+[22:49:07] [RCON Client /127.0.0.1 #9/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:49:20] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:49:20] [Server thread/INFO] [minecraft/MinecraftServer]: [Dev: Summoned new Stone]
+[22:49:21] [RCON Client /127.0.0.1 #10/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:49:25] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:49:25] [RCON Client /127.0.0.1 #11/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:49:30] [Netty Server IO #10/ERROR] [minecraft/Connection]: Exception caught in connection
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[22:49:30] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:49:32] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:49:32] [RCON Client /127.0.0.1 #12/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:49:46] [Netty Server IO #11/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@32d11e67 into net.minecraft.network.Connection@77d38659
+[22:49:46] [Netty Server IO #11/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@466ed503 into net.minecraft.network.Connection@77d38659
+[22:49:46] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@5eb4f015 into net.minecraft.network.Connection@77d38659
+[22:49:46] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:61934] logged in with entity id 313 at (6.5, -60.0, 7.5)
+[22:49:57] [Server thread/INFO] [minecraft/MinecraftServer]: Dev was slain by Slime
+[22:50:08] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:50:09] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ����������� �������� ��� 1 �����(��).]
+[22:50:09] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ������� ������� ������� � 1 �����(��).]
+[22:50:11] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:50:11] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:50:12] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Dirt]]
+[22:50:13] [RCON Client /127.0.0.1 #13/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:50:19] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:50:19] [Server thread/INFO] [minecraft/MinecraftServer]: [Dev: Summoned new Stone]
+[22:50:20] [RCON Client /127.0.0.1 #14/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:50:32] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:50:32] [RCON Client /127.0.0.1 #15/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:51:10] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:51:12] [RCON Client /127.0.0.1 #16/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:51:29] [Netty Server IO #11/ERROR] [minecraft/Connection]: Exception caught in connection
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23133!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23140!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23135!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[22:51:29] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:51:32] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:51:32] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: The difficulty has been set to Peaceful]
+[22:51:32] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Gamerule doMobSpawning is now set to: false]
+[22:51:33] [RCON Client /127.0.0.1 #17/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:51:33] [Netty Server IO #12/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@3c024bc5 into net.minecraft.network.Connection@7900c221
+[22:51:33] [Netty Server IO #12/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@4833dced into net.minecraft.network.Connection@7900c221
+[22:51:33] [Server thread/DEBUG] [ne.ne.ne.ne.fi.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@79914083 into net.minecraft.network.Connection@7900c221
+[22:51:33] [Server thread/INFO] [minecraft/PlayerList]: Dev[/127.0.0.1:61938] logged in with entity id 449 at (6.5, -60.0, 7.5)
+[22:52:04] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:52:04] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Creative Limit: ������� ������� ������� � 1 �����(��).]
+[22:52:04] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Removed 17 item(s) from player Dev]
+[22:52:05] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Applied effect Resistance to Dev]
+[22:52:06] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:52:07] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Stone]]
+[22:52:07] [Server thread/INFO] [minecraft/MinecraftServer]: [Rcon: Replaced a slot on Dev with [Dirt]]
+[22:52:08] [RCON Client /127.0.0.1 #18/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:52:15] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:52:16] [Server thread/INFO] [minecraft/MinecraftServer]: [Dev: Summoned new Stone]
+[22:52:17] [RCON Client /127.0.0.1 #19/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:52:22] [RCON Listener #1/INFO] [minecraft/GenericThread]: Thread RCON Client /127.0.0.1 started
+[22:52:22] [RCON Client /127.0.0.1 #20/INFO] [minecraft/RconClient]: Thread RCON Client /127.0.0.1 shutting down
+[22:52:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[22:56:33] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Disconnected
+[22:57:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:02:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:07:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:12:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:17:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:22:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:27:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:32:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:37:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:42:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:47:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:52:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[23:57:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:02:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:07:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:12:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:17:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:22:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:27:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:32:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:37:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:42:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:47:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:52:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[00:57:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[01:02:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[01:07:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[01:12:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[01:17:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+[01:22:31] [Server thread/DEBUG] [ne.ne.ne.co.CommonHooks/WP]: Gathered mod list to write to world save world
+
+E:\rootlmai>if 1073807364 EQU 0 goto mainEnd 
+
+E:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+E:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+E:\rootlmai>set EXIT_CODE=1073807364 
+
+E:\rootlmai>if 1073807364 EQU 0 set EXIT_CODE=1 
+
+E:\rootlmai>if not "" == "" exit 1073807364 
+
+E:\rootlmai>exit /b 1073807364 

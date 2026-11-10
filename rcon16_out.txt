@@ -1,0 +1,7 @@
+AUTH -> (1, '')
+> difficulty peaceful
+  The difficulty has been set to Peaceful
+  
+> gamerule doMobSpawning false
+  Gamerule doMobSpawning is now set to: false
+  

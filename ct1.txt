@@ -1,0 +1,6 @@
+﻿creativelimit on Dev
+difficulty peaceful
+clear Dev
+data get entity Dev Inventory
+give Dev minecraft:stone 3
+data get entity Dev Inventory

@@ -1,0 +1,216 @@
+[bot] connected as Dev
+[bot] raw packet: len=3 first=038002
+[bot] compression threshold: 256
+[bot] raw packet: len=24 first=0002380df991f603344ca090369bad2a
+[bot] login success
+[bot] raw packet: len=78 first=0001146d696e6563726166743a756e72
+[bot] custom payload: b'\x14minecraft:unregisterminecraft:register\x00minecraft:unregister\x00neoforge:split\x00'
+[bot] config packet 0x01 (76 bytes)
+[bot] raw packet: len=154 first=0001126d696e6563726166743a726567
+[bot] custom payload: b'\x12minecraft:registerminecraft:register\x00minecraft:unregister\x00neoforge:register\x00neo'
+[bot] config packet 0x01 (152 bytes)
+[bot] raw packet: len=21 first=0001116e656f666f7267653a72656769
+[bot] custom payload: b'\x11neoforge:register\x00'
+[bot] config packet 0x01 (19 bytes)
+[bot] raw packet: len=6 first=000500000000
+[bot] raw packet: len=152 first=b002789c65cdd10d83300c0450ba42c7
+[bot] custom payload: b'\x12minecraft:registerminecraft:register\x00minecraft:unregister\x00neoforge:register\x00neo'
+[bot] config packet 0x01 (303 bytes)
+[bot] raw packet: len=27 first=00010f6d696e6563726166743a627261
+[bot] custom payload: b'\x0fminecraft:brand\x08neoforge'
+[bot] config packet 0x01 (25 bytes)
+[bot] raw packet: len=21 first=000c01116d696e6563726166743a7661
+[bot] config packet 0x0c (19 bytes)
+[bot] raw packet: len=86 first=000e03096d696e65637261667404636f
+[bot] select known packs -> reply empty list
+[bot] raw packet: len=1812 first=81ad01789ced9c4d8c144514806b33cc
+[bot] registry data (22144 bytes) received
+[bot] raw packet: len=286 first=830c789ccd94c14ec3300c865dd8d6ae
+[bot] registry data (1538 bytes) received
+[bot] raw packet: len=466 first=d718789cadd55d4fc320140660bc3056
+[bot] registry data (3158 bytes) received
+[bot] raw packet: len=541 first=f50f789c8d95ed6adb3014864f61595c
+[bot] registry data (2036 bytes) received
+[bot] raw packet: len=375 first=890f789c9594cb52c2301486eb46d1f1
+[bot] registry data (1928 bytes) received
+[bot] raw packet: len=667 first=d31d789c8d97dd729c300c85d990b699
+[bot] registry data (3794 bytes) received
+[bot] raw packet: len=442 first=f90d789ced94cf6a1b3110c647d8b11d
+[bot] registry data (1784 bytes) received
+[bot] raw packet: len=864 first=812a789cbd98496edb30144059341ee2
+[bot] registry data (5376 bytes) received
+[bot] raw packet: len=775 first=d226789c9d57db72d33014144f7478a0
+[bot] registry data (4945 bytes) received
+[bot] raw packet: len=4293 first=97ea01789ce55dcd73dbc6155f9aa22c
+[bot] registry data (29974 bytes) received
+[bot] raw packet: len=573 first=8619789c9dd6dd6ed3301407f033c658
+[bot] registry data (3205 bytes) received
+[bot] raw packet: len=15815 first=c0aa02789cddbd77801455ba373c27d4
+[bot] config packet 0x0d (38207 bytes)
+[bot] raw packet: len=2 first=0003
+[bot] configuration finished
+[bot] in play state
+[bot] raw packet: len=24 first=0019106e656f666f7267653a6e657477
+[bot] raw packet: len=154 first=0019126d696e6563726166743a726567
+[bot] raw packet: len=156 first=0019146d696e6563726166743a756e72
+[bot] raw packet: len=76 first=0019126d696e6563726166743a726567
+[bot] raw packet: len=109 first=002b000000010003136d696e65637261
+[bot] raw packet: len=4 first=000b0100
+[bot] raw packet: len=11 first=0038003d4ccccd3dcccccd
+[bot] raw packet: len=3 first=005300
+[bot] raw packet: len=20960 first=efcd06789ced7d07982467955855574d
+[bot] raw packet: len=7 first=001f000000011c
+[bot] raw packet: len=9099 first=f5bf01789ced7c77981cc775e7bcaaae
+[bot] raw packet: len=13 first=00410000000000000000000000
+[bot] raw packet: len=36 first=0040401a000000000000c04e00000000
+[bot] raw packet: len=24 first=004b08001241204d696e656372616674
+[bot] raw packet: len=4 first=003e3f00
+[bot] raw packet: len=30 first=003e3f01380df991f603344ca090369b
+[bot] raw packet: len=41 first=00250000000000000000000000000000
+[bot] raw packet: len=18 first=00640000000000000805000000000000
+[bot] raw packet: len=14 first=00560000000000000fc400000000
+[bot] raw packet: len=7 first=00220d00000000
+[bot] raw packet: len=7 first=007141a0000000
+[bot] raw packet: len=3 first=007200
+[bot] raw packet: len=4 first=00540000
+[bot] raw packet: len=52 first=001300012e0000000000000000000000
+[bot] raw packet: len=13 first=005801090341a0000011007fff
+[bot] raw packet: len=37 first=004101000000000000000001186d696e
+[bot] raw packet: len=136 first=9302789c2b6164d2c9cdcc4b4d2e4a4c
+[bot] raw packet: len=11 first=005d41a000001440a00000
+[bot] raw packet: len=8 first=005c000000000000
+[bot] raw packet: len=2 first=000d
+[bot] raw packet: len=150 first=ef36789cedd04b0ac2301485e19b127c
+[bot] raw packet: len=153 first=ef36789cedd04b0ac2301804e049093e
+[bot] raw packet: len=152 first=ef36789cedd04d0ac2301404e04909fe
+[bot] raw packet: len=152 first=ef36789cedd04d0ac2301404e04909fe
+[bot] raw packet: len=151 first=ef36789cedd04b0ac2301485e19b127c
+[bot] raw packet: len=153 first=ef36789cedd04d0ac2301404e04909fe
+[bot] raw packet: len=149 first=ef36789cedd04d0a82401c05f03732f4
+[bot] raw packet: len=153 first=ef36789cedd04b0ac2301804e049093e
+[bot] raw packet: len=153 first=ef36789cedd04d0ac2301404e04909fe
+[bot] raw packet: len=3 first=000c09
+[bot] raw packet: len=44 first=00750104153fb99999a0000000001600
+[bot] raw packet: len=18 first=0064000000000000080b000000000000
+[bot] raw packet: len=18 first=0064000000000000081f000000000000
+[bot] raw packet: len=18 first=00640000000000000833000000000000
+[bot] raw packet: len=18 first=00640000000000000847000000000000
+[bot] raw packet: len=18 first=0064000000000000085b000000000000
+[bot] raw packet: len=18 first=0064000000000000086f000000000000
+[bot] raw packet: len=18 first=00640000000000000883000000000000
+[bot] raw packet: len=18 first=00640000000000000897000000000000
+[bot] raw packet: len=18 first=006400000000000008ab000000000000
+[bot] raw packet: len=18 first=006400000000000008bf000000000000
+[bot] raw packet: len=18 first=006400000000000008d3000000000000
+[bot] raw packet: len=18 first=006400000000000008e7000000000000
+[bot] raw packet: len=18 first=006400000000000008fb000000000000
+[bot] raw packet: len=18 first=0064000000000000090f000000000000
+[bot] raw packet: len=18 first=00640000000000000923000000000000
+[bot] raw packet: len=18 first=00640000000000000937000000000000
+[bot] raw packet: len=10 first=00260000000024ed3bd0
+[bot] raw packet: len=18 first=0064000000000000094b000000000000
+[bot] raw packet: len=18 first=0064000000000000095f000000000000
+[bot] raw packet: len=21 first=003e1001380df991f603344ca090369b
+[bot] raw packet: len=18 first=00640000000000000973000000000000
+[bot] raw packet: len=18 first=00640000000000000987000000000000
+[bot] raw packet: len=18 first=0064000000000000099b000000000000
+[bot] raw packet: len=18 first=006400000000000009af000000000000
+[bot] raw packet: len=18 first=006400000000000009c3000000000000
+[bot] raw packet: len=18 first=006400000000000009d7000000000000
+[bot] raw packet: len=18 first=006400000000000009eb000000000000
+[bot] raw packet: len=18 first=006400000000000009ff000000000000
+[bot] raw packet: len=18 first=00640000000000000a13000000000000
+[bot] raw packet: len=18 first=00640000000000000a27000000000000
+[bot] raw packet: len=18 first=00640000000000000a3b000000000000
+[bot] raw packet: len=18 first=00640000000000000a4f000000000000
+[bot] raw packet: len=18 first=00640000000000000a63000000000000
+[bot] raw packet: len=10 first=00260000000024ed7695
+[bot] raw packet: len=18 first=00640000000000000a77000000000000
+[bot] raw packet: len=18 first=00640000000000000a8b000000000000
+[bot] raw packet: len=18 first=00640000000000000a9f000000000000
+[bot] raw packet: len=18 first=00640000000000000ab3000000000000
+[bot] raw packet: len=18 first=00640000000000000ac7000000000000
+[bot] raw packet: len=18 first=00640000000000000adb000000000000
+[bot] raw packet: len=18 first=00640000000000000aef000000000000
+[bot] raw packet: len=18 first=00640000000000000b03000000000000
+[bot] raw packet: len=18 first=00640000000000000b17000000000000
+[bot] raw packet: len=18 first=00640000000000000b2b000000000000
+[bot] raw packet: len=18 first=00640000000000000b3f000000000000
+[bot] raw packet: len=18 first=00640000000000000b53000000000000
+[bot] raw packet: len=18 first=00640000000000000b67000000000000
+[bot] raw packet: len=18 first=00640000000000000b7b000000000000
+[bot] raw packet: len=18 first=00640000000000000b8f000000000000
+[bot] raw packet: len=10 first=00260000000024edb168
+[bot] raw packet: len=18 first=00640000000000000ba3000000000000
+[bot] raw packet: len=18 first=00640000000000000bb7000000000000
+[bot] raw packet: len=21 first=003e1001380df991f603344ca090369b
+[bot] raw packet: len=18 first=00640000000000000bcb000000000000
+[bot] raw packet: len=18 first=00640000000000000bdf000000000000
+[bot] raw packet: len=18 first=00640000000000000bf3000000000000
+[bot] raw packet: len=18 first=00640000000000000c07000000000000
+[bot] raw packet: len=18 first=00640000000000000c1b000000000000
+[bot] raw packet: len=2 first=0000
+[bot] raw packet: len=54 first=000169c46e567703cd4de29f2002f50a
+[bot] raw packet: len=13 first=005869090341800000100104ff
+[bot] raw packet: len=34 first=0075690312403000000000000000153f
+[bot] raw packet: len=2 first=0000
+[bot] raw packet: len=9 first=005a69fa6c0a69fdbf
+[bot] raw packet: len=30 first=007069403ff399d4a911b1c04dca3d70
+[bot] raw packet: len=9 first=005a69faec07c1fdf3
+[bot] raw packet: len=10 first=002e69fd240555fed900
+[bot] raw packet: len=9 first=005a69fb9c0018fe3a
+[bot] raw packet: len=10 first=002e69f83a07f0fcdc00
+[bot] raw packet: len=9 first=005a69fc69f8e3fe8d
+[bot] raw packet: len=10 first=002e69f982fc67fd6000
+[bot] raw packet: len=18 first=00640000000000000c2f000000000000
+[bot] raw packet: len=9 first=005a69fcbaf21afeae
+[bot] raw packet: len=10 first=002e69fa4ff18dfdb400
+[bot] raw packet: len=9 first=005a69ff1dfd8dffa5
+[bot] raw packet: len=30 first=007069403e45ff793dbf6ec04e000000
+[bot] raw packet: len=9 first=005a69ffdbfd8dfff2
+[bot] raw packet: len=10 first=002e69ff290000ffa901
+[bot] raw packet: len=9 first=005a690000fd8d0000
+[bot] raw packet: len=10 first=002e69ffed0000000001
+[bot] raw packet: len=18 first=00640000000000000c43000000000000
+[bot] raw packet: len=9 first=005a69fa6c0a69fdbf
+[bot] raw packet: len=30 first=007069403de3a5e4a0308bc04dca3d70
+[bot] raw packet: len=9 first=005a69fb120526fe03
+[bot] raw packet: len=10 first=002e69fa5e094dfdb900
+[bot] raw packet: len=18 first=00640000000000000c57000000000000
+[bot] raw packet: len=9 first=005a69fc01fda5fe63
+[bot] raw packet: len=10 first=002e69f8c10404fd1300
+[bot] raw packet: len=9 first=005a69fc6cf694fe8e
+[bot] raw packet: len=10 first=002e69f9bef8b6fd7900
+[bot] raw packet: len=9 first=005a69fd06fd8dfecc
+[bot] raw packet: len=30 first=007069403c5bc9f5a789eec04e000000
+[bot] raw packet: len=9 first=005a69ff84fd8dffce
+[bot] raw packet: len=10 first=002e69fd2f0000fedd01
+[bot] raw packet: len=9 first=005a69ffecfd8d0000
+[bot] raw packet: len=10 first=002e69ff8b0000ffd901
+[bot] raw packet: len=9 first=005a690000fd8d0000
+[bot] raw packet: len=18 first=00640000000000000c6b000000000000
+[bot] raw packet: len=6 first=0030698b0001
+[bot] raw packet: len=4 first=0048698b
+[bot] raw packet: len=18 first=00640000000000000c7f000000000000
+[bot] raw packet: len=33 first=0068f90905000000e1fffffe20000000
+[bot] raw packet: len=9 first=005a6901a80a69fa37
+[bot] raw packet: len=30 first=007069403c4053ce7c9546c04dca3d70
+[bot] raw packet: len=9 first=005a6901550298fb59
+[bot] raw packet: len=10 first=002e69026d0bf0f78a00
+[bot] raw packet: len=9 first=005a69012cfb3efbe8
+[bot] raw packet: len=10 first=002e690210002cf8cd00
+[bot] raw packet: len=9 first=005a6900f7f451fca0
+[bot] raw packet: len=10 first=002e6901bff518f9eb00
+[bot] raw packet: len=33 first=0068fa0905000000e5fffffe20000000
+[bot] raw packet: len=9 first=005a69007bfd8dfe51
+[bot] raw packet: len=30 first=007069403cbc0b74e8b98bc04e000000
+[bot] raw packet: len=18 first=00640000000000000c93000000000000
+[bot] raw packet: len=9 first=005a690014fd8dffba
+[bot] raw packet: len=10 first=002e6900750000fe6801
+[bot] raw packet: len=9 first=005a690000fd8d0000
+[bot] raw packet: len=10 first=002e6900000000ffc801
+[bot] raw packet: len=10 first=002e6900000000000001
+[bot] raw packet: len=18 first=00640000000000000ca7000000000000
+[bot] raw packet: len=33 first=0068f90905000000e6fffffe20000000
+[bot] play packets seen: {'0x0': 2, '0x1': 1, '0xb': 1, '0xc': 1, '0xd': 1, '0x11': 1, '0x13': 1, '0x19': 4, '0x1f': 1, '0x22': 1, '0x25': 1, '0x27': 9, '0x2b': 1, '0x2e': 17, '0x30': 1, '0x38': 1, '0x3e': 4, '0x40': 1, '0x41': 2, '0x48': 1, '0x4b': 1, '0x53': 1, '0x54': 1, '0x56': 1, '0x58': 2, '0x5a': 23, '0x5c': 1, '0x5d': 1, '0x64': 61, '0x68': 3, '0x70': 6, '0x71': 1, '0x72': 1, '0x74': 1, '0x75': 2, '0x77': 1}
+[bot] done

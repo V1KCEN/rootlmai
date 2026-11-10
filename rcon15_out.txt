@@ -1,0 +1,11 @@
+AUTH -> (1, '')
+> data get entity @e[type=minecraft:item,limit=5]
+  Only one entity is allowed, but the provided selector allows more than one
+  data get entity @e[type=minecraft:item,limit=5]<--[HERE]
+  
+> data get entity Dev Pos
+  Dev has the following entity data: [6.5d, -60.0d, 7.5d]
+  
+> data get entity Dev Health
+  Dev has the following entity data: 0.0f
+  

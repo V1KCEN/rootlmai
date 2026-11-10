@@ -1,0 +1,185 @@
+
+e:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+e:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+e:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+e:\rootlmai>set APP_BASE_NAME=gradlew 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+e:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+e:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+e:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+e:\rootlmai>set JAVA_EXE=java.exe 
+
+e:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+e:\rootlmai>if 0 EQU 0 goto execute 
+
+e:\rootlmai>set CLASSPATH= 
+
+e:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" compileJava --offline --no-daemon --rerun-tasks 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :neoFormMergeMappings UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :neoFormStripClient UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1
+> Task :create1.21.1ClientExtraJar UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra
+> Task :neoFormStripServer UP-TO-DATE
+> Task :neoFormMerge UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :neoFormRename UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248
+
+> Task :compileJava
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:7: error: cannot find symbol
+import net.minecraft.world.entity.player.ServerPlayer;
+                                        ^
+  symbol:   class ServerPlayer
+  location: package net.minecraft.world.entity.player
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:79: error: cannot find symbol
+    private static void playBreakSound(ServerPlayer player) {
+                                       ^
+  symbol:   class ServerPlayer
+  location: class TagRiHandler
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:106: error: cannot find symbol
+    public static boolean dropDeathdropItems(ServerPlayer player) {
+                                             ^
+  symbol:   class ServerPlayer
+  location: class TagRiHandler
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiCommands.java:82: error: incompatible types: MutableComponent cannot be converted to Supplier<Component>
+                    Component.literal("Тег «" + tag + "» уже установлен на этом предмете."),
+                                     ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiCommands.java:105: error: incompatible types: MutableComponent cannot be converted to Supplier<Component>
+                Component.literal("Тег «" + tag + "» применён к предмету в основной руке."),
+                                 ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:47: error: illegal forward reference
+                            .networkSynchronized(STREAM_CODEC)
+                                                 ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:46: error: illegal forward reference
+                            .persistent(CODEC)
+                                        ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:106: error: incompatible types: bad return type in method reference
+                    Codec.STRING.listOf().fieldOf("tags").forGetter(TagRiComponent::tags),
+                                                                    ^
+    Set<String> cannot be converted to List<String>
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:113: error: incompatible types: incompatible parameter types in lambda expression
+            buf -> {
+            ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:44: error: cannot find symbol
+        if (!(entity instanceof ServerPlayer player)) return;
+                                ^
+  symbol:   class ServerPlayer
+  location: class TagRiHandler
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:135: error: cannot find symbol
+        if (!(entity instanceof ServerPlayer player)) return;
+                                ^
+  symbol:   class ServerPlayer
+  location: class TagRiHandler
+Note: E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\CombatModifierHandler.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\CombatModifierHandler.java uses or overrides a deprecated API.
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:47: error: illegal forward reference
+                              .networkSynchronized(STREAM_CODEC)
+                                                   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:46: error: illegal forward reference
+                              .persistent(CODEC)
+                                          ^
+  Note: Recompile with -Xlint:deprecation for details.
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiCommands.java:82: error: incompatible types: MutableComponent cannot be converted to Supplier<Component>
+                      Component.literal("Тег «" + tag + "» уже установлен на этом предмете."),
+                                       ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiCommands.java:105: error: incompatible types: MutableComponent cannot be converted to Supplier<Component>
+                  Component.literal("Тег «" + tag + "» применён к предмету в основной руке."),
+                                   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:106: error: incompatible types: bad return type in method reference
+                      Codec.STRING.listOf().fieldOf("tags").forGetter(TagRiComponent::tags),
+                                                                      ^
+      Set<String> cannot be converted to List<String>
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiComponent.java:113: error: incompatible types: incompatible parameter types in lambda expression
+              buf -> {
+              ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:7: error: cannot find symbol
+  import net.minecraft.world.entity.player.ServerPlayer;
+                                          ^
+    symbol:   class ServerPlayer
+    location: package net.minecraft.world.entity.player
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:79: error: cannot find symbol
+      private static void playBreakSound(ServerPlayer player) {
+                                         ^
+    symbol:   class ServerPlayer
+    location: class TagRiHandler
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:106: error: cannot find symbol
+      public static boolean dropDeathdropItems(ServerPlayer player) {
+                                               ^
+    symbol:   class ServerPlayer
+    location: class TagRiHandler
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:44: error: cannot find symbol
+          if (!(entity instanceof ServerPlayer player)) return;
+                                  ^
+    symbol:   class ServerPlayer
+    location: class TagRiHandler
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:135: error: cannot find symbol
+          if (!(entity instanceof ServerPlayer player)) return;
+                                  ^
+    symbol:   class ServerPlayer
+    location: class TagRiHandler
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  11 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 3m 42s
+23 actionable tasks: 5 executed, 18 up-to-date
+Configuration cache entry reused.
+
+e:\rootlmai>if 1 EQU 0 goto mainEnd 
+
+e:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+e:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+e:\rootlmai>set EXIT_CODE=1 
+
+e:\rootlmai>if 1 EQU 0 set EXIT_CODE=1 
+
+e:\rootlmai>if not "" == "" exit 1 
+
+e:\rootlmai>exit /b 1 

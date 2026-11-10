@@ -1,0 +1,113 @@
+[00:30:51.012] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--quickPlayMultiplayer, 127.0.0.1:25565, --launchTarget, forgeclientdev, --version, 21.1.248, --assetIndex, asset-index, --assetsDir, E:\mod\.gradle_home\caches\minecraft\assets, --gameDir, E:\rootlmai\run\client_Y, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430, --username, Dev2] 
+[00:30:51.022] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS 
+[00:30:51.024] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0 
+[00:30:51.466] [main/INFO] [loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow 
+[00:30:51.726] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6 
+[00:30:52.395] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6 
+[00:30:52.613] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/E:/mod/.gradle_home/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=CLIENT 
+[00:30:52.874] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[00:30:52.924] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: neoforge devenv provider ([E:\rootlmai\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.248\neoforge-21.1.248.jar])] 
+[00:30:52.971] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest] 
+[00:30:52.984] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248.jar" [locator: userdev mods and services, reader: mod manifest] 
+[00:30:53.018] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 617.14, NVIDIA Corporation 
+[00:30:53.083] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest] 
+[00:30:53.365] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: E:\mod\.gradle_home\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar 
+[00:30:53.366] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection 
+[00:30:53.366] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248.jar, locator: jarinjar, reader: mod manifest] 
+[00:30:53.368] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Example Mod 1.0.0 (examplemod)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.248 (neoforge) 
+[00:30:54.762] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[00:30:54.769] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.248, --gameDir, E:\rootlmai\run\client_Y, --assetsDir, E:\mod\.gradle_home\caches\minecraft\assets, --quickPlayMultiplayer, 127.0.0.1:25565, --assetIndex, asset-index, --username, Dev2] 
+[00:30:54.898] [main/WARN] [mixin/]: Reference map 'examplemod.refmap.json' for examplemod.mixins.json could not be read. If this is a development environment you can ignore this message 
+[00:30:55.087] [main/FATAL] [mixin/]: Mixin prepare for mod examplemod failed preparing AnimalInventoryMixin in examplemod.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException The specified mixin 'com.example.examplemod.mixin.AnimalInventoryMixin' was not found org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'com.example.examplemod.mixin.AnimalInventoryMixin' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:864) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:933) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:858) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) [securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:638) [?:?] {}
+	at java.base/java.lang.Class.forName(Class.java:627) [?:?] {}
+	at java.base/java.lang.Class.forName(Class.java:602) [?:?] {}
+	at MC-BOOTSTRAP/fml_earlydisplay@4.0.43/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:605) [earlydisplay-4.0.43.jar%23149!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94) [loader-4.0.43.jar%23150!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166) [loader-4.0.43.jar%23150!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115) [loader-4.0.43.jar%23150!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23132!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+Caused by: java.lang.ClassNotFoundException: The specified mixin 'com.example.examplemod.mixin.AnimalInventoryMixin' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1314) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:857) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 33 more
+
+Exception in thread "main" java.lang.RuntimeException: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [examplemod.mixins.json:AnimalInventoryMixin from mod examplemod] from phase [DEFAULT] in config [examplemod.mixins.json] FAILED during PREPARE
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [examplemod.mixins.json:AnimalInventoryMixin from mod examplemod] from phase [DEFAULT] in config [examplemod.mixins.json] FAILED during PREPARE
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinPrepareError(MixinProcessor.java:585)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:543)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:638)
+	at java.base/java.lang.Class.forName(Class.java:627)
+	at java.base/java.lang.Class.forName(Class.java:602)
+	at MC-BOOTSTRAP/fml_earlydisplay@4.0.43/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:605)
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94)
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166)
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	... 8 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'com.example.examplemod.mixin.AnimalInventoryMixin' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:864)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:933)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:858)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: The specified mixin 'com.example.examplemod.mixin.AnimalInventoryMixin' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1314)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:857)
+	... 33 more

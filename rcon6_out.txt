@@ -1,0 +1,28 @@
+AUTH -> (1, '')
+> op Dev
+  Nothing changed. The player already is an operator
+  
+> creativelimit on Dev
+  No player was found
+  
+> creativelimit reset Dev
+  No player was found
+  
+> clear Dev
+  No player was found
+  
+> gamemode creative Dev
+  No player was found
+  
+> data get entity Dev Inventory
+  No entity was found
+  
+> creativelimit status
+  === Creative Limit ===
+  Global: выключен (действуют только персональные записи)
+  Персонально ограничено UUID: 0
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (2): minecraft:stone, minecraft:diamond_sword
+  registerblock (1): minecraft:oak_log
+  

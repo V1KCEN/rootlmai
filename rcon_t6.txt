@@ -1,0 +1,20 @@
+AUTH -> (1, '')
+> creativelimit registeritem add minecraft:stone
+  registeritem: добавлено 1 ID предметов: minecraft:stone. ¬сего в реестре: 1.
+  
+> clear Dev
+  Removed 6 item(s) from player Dev
+  
+> creativelimit reset Dev
+  Creative Limit: счЄтчик выборок сброшен у 1 игрок(ов).
+  
+> creativelimit status
+  === Creative Limit ===
+  Global: ALLON Ч ограничены все игроки (включа€ будущие входы)
+  ѕерсонально ограничено UUID: 1
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (1): minecraft:stone
+  registerblock (0): Ч
+   - Dev: ограничени€ ON, Creative cap: 0/5, режим: creative (сейчас в Creative)
+  

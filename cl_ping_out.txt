@@ -1,0 +1,7 @@
+AUTH -> (1, '')
+> list
+  There are 0 of a max of 5 players online: 
+  
+> seed
+  Seed: [152219207543128178]
+  

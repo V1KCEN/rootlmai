@@ -1,0 +1,23 @@
+AUTH -> (1, '')
+> creativelimit reset Dev
+  Creative Limit: счётчик выборок сброшен у 1 игрок(ов).
+  
+> clear Dev
+  Removed 17 item(s) from player Dev
+  
+> gamemode creative Dev
+> effect give Dev resistance infinite 4 true
+  Applied effect Resistance to Dev
+  
+> item replace entity Dev hotbar.0 with minecraft:stone 3
+  Replaced a slot on Dev with [Stone]
+  
+> item replace entity Dev hotbar.1 with minecraft:stone 3
+  Replaced a slot on Dev with [Stone]
+  
+> item replace entity Dev hotbar.2 with minecraft:dirt 3
+  Replaced a slot on Dev with [Dirt]
+  
+> data get entity Dev Inventory
+  Dev has the following entity data: [{count: 3, Slot: 0b, id: "minecraft:stone"}, {count: 3, Slot: 1b, id: "minecraft:stone"}, {count: 3, Slot: 2b, id: "minecraft:dirt"}]
+  

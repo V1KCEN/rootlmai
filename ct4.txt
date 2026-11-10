@@ -1,0 +1,5 @@
+clear Dev
+give Dev minecraft:stone 3
+give Dev minecraft:apple 2
+data get entity Dev Inventory
+execute as Dev at Dev run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dirt",count:1},PickupDelay:0}

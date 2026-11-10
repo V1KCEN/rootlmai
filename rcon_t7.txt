@@ -1,0 +1,13 @@
+AUTH -> (1, '')
+> creativelimit status
+  === Creative Limit ===
+  Global: ALLON Ч ограничены все игроки (включа€ будущие входы)
+  ѕерсонально ограничено UUID: 1
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (1): minecraft:stone
+  registerblock (0): Ч
+  
+> data get entity Dev Inventory
+  No entity was found
+  

@@ -1,0 +1,81 @@
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+E:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" build --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because the file system entry 'build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\transformSource\transformed' has been removed.
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file 'E:\rootlmai\build.gradle' line: 105
+
+* What went wrong:
+A problem occurred evaluating root project 'rootlmai'.
+> Uncaught exception while processing replacement of dependency net.neoforged:neoforge using handler net.neoforged.gradle.common.extensions.dependency.replacement.Handler_Decorated@394fe6ad: Failed to download the file from: https://piston-meta.mojang.com/mc/game/version_manifest.json to: E:\mod\.gradle_home\caches\minecraft\.\launcher_metadata.json
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+A problem occurred configuring root project 'rootlmai'.
+> (The run type 'client' was not found) null.
+  Potential Solution: Ensure the run type is defined in the run or a dependency.
+  More information: https://github.com/neoforged/NeoGradle/blob/NG_7.1/README.md#common-runs-configuration-types-configure-by-type
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 45s
+Configuration cache entry stored.
+
+E:\rootlmai>if 1 EQU 0 goto mainEnd 
+
+E:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+E:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+E:\rootlmai>set EXIT_CODE=1 
+
+E:\rootlmai>if 1 EQU 0 set EXIT_CODE=1 
+
+E:\rootlmai>if not "" == "" exit 1 
+
+E:\rootlmai>exit /b 1 

@@ -1,0 +1,19 @@
+AUTH -> (1, '')
+> creativelimit registeritem add minecraft:stone
+  registeritem: добавлено 1 ID предметов: minecraft:stone. Всего в реестре: 1.
+  
+> creativelimit registeritem add minecraft:diamond_sword
+  registeritem: добавлено 1 ID предметов: minecraft:diamond_sword. Всего в реестре: 2.
+  
+> creativelimit registerblock add minecraft:oak_log
+  registerblock: добавлено 1 ID блоков: minecraft:oak_log. Всего в реестре: 1.
+  
+> creativelimit status
+  === Creative Limit ===
+  Global: выключен (действуют только персональные записи)
+  Персонально ограничено UUID: 0
+  Creative cap: 5 (конфиг creativeLimitMaxGrants)
+  Bonus HP: +30.0 (конфиг creativeLimitBonusHealth)
+  registeritem (2): minecraft:stone, minecraft:diamond_sword
+  registerblock (1): minecraft:oak_log
+  

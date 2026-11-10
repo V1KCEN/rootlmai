@@ -1,0 +1,7 @@
+op Dev
+creativelimit on Dev
+creativelimit reset Dev
+clear Dev
+gamemode creative Dev
+data get entity Dev Inventory
+creativelimit status
