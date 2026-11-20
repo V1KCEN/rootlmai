@@ -1,4 +1,8 @@
 ### Gradle ###
+
+
+0
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -38,3 +42,6 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+# Local development logs
+/dev-logs/
