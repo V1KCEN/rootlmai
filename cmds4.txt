@@ -1,4 +1,0 @@
-creativelimit registeritem add minecraft:stone
-creativelimit registeritem add minecraft:diamond_sword
-creativelimit registerblock add minecraft:oak_log
-creativelimit status

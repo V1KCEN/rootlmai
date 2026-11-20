@@ -1,0 +1,188 @@
+
+E:\rootlmai>if "Windows_NT" == "Windows_NT" setlocal
+
+E:\rootlmai>set DIRNAME=e:\rootlmai\ 
+
+E:\rootlmai>if "e:\rootlmai\" == "" set DIRNAME=. 
+
+E:\rootlmai>set APP_BASE_NAME=gradlew 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>for %i in ("e:\rootlmai\") do set APP_HOME=%~fi 
+
+E:\rootlmai>set APP_HOME=e:\rootlmai\ 
+
+E:\rootlmai>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+E:\rootlmai>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+E:\rootlmai>set JAVA_EXE=java.exe 
+
+E:\rootlmai>java.exe -version  1>NUL 2>&1 
+
+E:\rootlmai>if 0 EQU 0 goto execute 
+
+E:\rootlmai>set CLASSPATH= 
+
+E:\rootlmai>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "e:\rootlmai\\gradle\wrapper\gradle-wrapper.jar" clean build --no-daemon 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because the file system entry 'build\neoForm\neoFormJoined1.21.1-20240808.144430\steps\transformSource\transformed' has been removed.
+> Task :cacheVersionManifest1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.1 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.1 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.1 UP-TO-DATE
+> Task :cacheVersionExtractedServer1.21.1 UP-TO-DATE
+> Task :clean
+> Task :processTestResources NO-SOURCE
+> Task :neoFormJoined1.21.1-20240808.144430ExtractNatives FROM-CACHE
+> Task :neoFormListLibraries FROM-CACHE
+> Task :neoFormMergeMappings FROM-CACHE
+> Task :create1.21.1ClientExtraJar FROM-CACHE
+> Task :selectRawArtifactNg_dummy_ng.net.minecraft_client_1.21.1_client-extra UP-TO-DATE
+> Task :neoFormListTransformLibraries FROM-CACHE
+> Task :neoFormStripServer FROM-CACHE
+> Task :neoFormStripClient FROM-CACHE
+> Task :processResources
+> Task :neoFormMerge FROM-CACHE
+> Task :neoFormRename FROM-CACHE
+> Task :neoFormDecompile FROM-CACHE
+> Task :neoFormInject FROM-CACHE
+> Task :neoFormPatch FROM-CACHE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets
+> Task :neoFormTransformSource
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormJoined1.21.1-20240808.144430DownloadAssets UP-TO-DATE
+> Task :neoFormRecompile
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.1-20240808.144430
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.1.248 UP-TO-DATE
+> Task :writeMinecraftClasspathJunit
+
+> Task :compileJava
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:65: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:70: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:71: error: ';' expected
+                TagRiComponent updated = new TagRiComponent(new ArrayList<>(component.tags()), newUses);
+                              ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:94: error: illegal start of type
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:118: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:119: error: ';' expected
+            ItemStack dropCopy = stack.copy();
+                     ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:122: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:142: error: illegal start of type
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:175: error: illegal start of type
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:195: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:196: error: ';' expected
+            String carriedGentle = carriedComp.tags().stream()
+                  ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:205: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:210: error: illegal start of expression
+ * 
+ ^
+E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:214: error: illegal start of expression
+ * 
+ ^
+14 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///E:/rootlmai/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:65: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:70: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:118: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:122: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:195: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:205: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:210: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:214: error: illegal start of expression
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:94: error: illegal start of type
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:142: error: illegal start of type
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:175: error: illegal start of type
+   * 
+   ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:71: error: ';' expected
+                  TagRiComponent updated = new TagRiComponent(new ArrayList<>(component.tags()), newUses);
+                                ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:119: error: ';' expected
+              ItemStack dropCopy = stack.copy();
+                       ^
+  E:\rootlmai\src\main\java\com\example\examplemod\rootimpact\tagri\TagRiHandler.java:196: error: ';' expected
+              String carriedGentle = carriedComp.tags().stream()
+                    ^
+  14 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4m 49s
+28 actionable tasks: 5 executed, 12 from cache, 11 up-to-date
+Configuration cache entry stored.
+
+E:\rootlmai>if 1 EQU 0 goto mainEnd 
+
+E:\rootlmai>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+E:\rootlmai>rem the _cmd.exe /c_ return code! 
+
+E:\rootlmai>set EXIT_CODE=1 
+
+E:\rootlmai>if 1 EQU 0 set EXIT_CODE=1 
+
+E:\rootlmai>if not "" == "" exit 1 
+
+E:\rootlmai>exit /b 1 

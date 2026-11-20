@@ -1,2 +1,0 @@
-[bot] connected as Dev
-[bot] ERROR: timed out

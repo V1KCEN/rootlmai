@@ -1,3 +1,0 @@
-data get entity @e[type=minecraft:item,limit=5]
-data get entity Dev Pos
-data get entity Dev Health
